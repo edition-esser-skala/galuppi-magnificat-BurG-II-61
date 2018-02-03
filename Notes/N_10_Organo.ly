@@ -74,10 +74,10 @@ MagnificatOrgano = {
 		d, g c h
 		a2 g4 r
 		R1*3 %70
-		r8 a h cis d8.-\critnote c16 b8 a
-		b? g a b c8. b16 a8 g
-		a f g a b8.-\critnote a16 g8 f
-		g e f g a8. g16 f8 e
+		r8 a h cis d8.[-\critnote c16 b8 a]
+		b? g a b c8.[ b16 a8 g]
+		a f g a b8.[-\critnote a16 g8 f]
+		g e f g a8.[ g16 f8 e]
 		f4 d r a'~ %75
 		a gis r g~
 		g fis! r f
