@@ -256,7 +256,7 @@ SuscepitAltoLyrics = \lyricmode {
 	cor --
 	di -- ae
 	su --
-	ae.
+	ae.]
 	
 	Sus -- %230
 	ce -- pit

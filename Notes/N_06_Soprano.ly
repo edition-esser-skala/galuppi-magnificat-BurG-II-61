@@ -305,7 +305,7 @@ SuscepitSopranoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
 		R2.*14 %199
-		\mvTr g'2. %200
+		\mvTr g'2.\fE^\tuttiE %200
 		a2 h4
 		c \appoggiatura h a2
 		h4 d2~

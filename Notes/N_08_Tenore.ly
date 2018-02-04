@@ -155,12 +155,66 @@ SuscepitTenoreNotes = {
 		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		
+		R2.*31 %216
+		r4 \mvTr c2\fE^\tuttiE
+		d4 d2
+		c8 c c4 d
+		e e2 %220
+		d4( e2
+		d4) d e
+		d2.
+		d4 r r
+		R2.*16 %240
+		r4 c c
+		g' g g
+		g g2
+		fis4 d e
+		f f^\critnote f %245
+		e r r
+		R2.*5 %251
+		r4 r d
+		c h2
+		e4 a,2
+		h4( f' e~ %255
+		e8[ f] d2)
+		c4 d2\p
+		c4 h2
+		e4 a,2
+		h4(\f f' e~ %260
+		e8[ f] d2)
+		e r4
+		R2.*9 \bar "||" %271 finis
 	}
 }
 
 SuscepitTenoreLyrics = \lyricmode {
+	[Mi -- %217
+	se -- ri --
+	cor -- di -- ae, mi --
+	se -- ri -- %220
+	cor --
+	di -- ae
+	su --
+	ae.]
 	
+	Re -- cor -- %241
+	da -- tus mi --
+	se -- ri --
+	cor -- diae, mi --
+	se -- ri -- cor -- %245
+	diae,
+	
+	mi -- %252
+	se -- [ri --
+	cor -- diae]
+	su -- %255
+	
+	ae, mi --
+	[se -- ri --
+	cor -- diae
+	su -- %260
+	
+	ae.] %262 finis
 }
 
 % TenoreNotes = {
