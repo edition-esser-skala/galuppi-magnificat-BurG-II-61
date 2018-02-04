@@ -591,10 +591,10 @@ SicutOrgano = {
 		r4 r8 a' g8. f16 e8. d16
 		c4 c c,2 %270
 		r4 r8 h'' a8. g16 fis8. e16
-		d1~
-		d~
-		\once \tieDashed d~
-		d %275
+		d1:8~-\critnote
+		d:~
+		\once \tieDashed d:~
+		d: %275
 		r4 d fis d
 		r g fis d
 		r g fis d

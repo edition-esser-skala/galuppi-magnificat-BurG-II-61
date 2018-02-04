@@ -453,8 +453,8 @@ SicutSopranoNotes = {
 		d4 h8. c16 d4 g,
 		\appoggiatura g fis2. d'4
 		\appoggiatura d4 c4.( d8) \appoggiatura c4 h4.( c8)
-		a4 g r r8 d' %320
-		c4 h8. a16 g8.([ a16)] h8.([ cis16)]
+		a4 g r d' %320
+		c h8. a16 g8.([ a16)] h8.([ cis16)]
 		d4 d, r2
 		d'4. g,8 g2
 		r2 r4 g
@@ -570,7 +570,7 @@ SicutSopranoLyrics = \lyricmode {
 	e -- ius in __
 	sae -- _ _ _
 	_ _ _ cu --
-	la. &360 finis
+	la. %360 finis
 }
 
 % SopranoNotes = {
