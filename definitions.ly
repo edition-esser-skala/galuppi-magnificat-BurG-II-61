@@ -296,6 +296,7 @@ tempoMagnificatB = \tempoMarkup "Allegro"
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
 		\override NoteHead.style = #'baroque
+		aDueText = \markup { \medium \remark "a 2" }
 	}
 	\context {
 		\Lyrics

@@ -37,16 +37,16 @@ MagnificatCornoI = {
 		h r r2
 		r4 d, g2
 		a4 r r2
-		r4 h a a
-		a a a2 %20
-		a a
+		r4 h \pa a a
+		a a a2 \pd %20
+		a \pao a
 		R1
 		r2 a
-		a4 r h a
+		\pao a4 r h \pao a
 		a r r2 %25
 		R1
 		h2 h
-		a a
+		\pao a a
 		h g
 		r h %30
 		h r
