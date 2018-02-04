@@ -148,6 +148,17 @@ MagnificatBassoLyrics = \lyricmode {
 	les. %81 finis
 }
 
+EsurientesBassoNotes = {
+	\relative c {
+		\clef bass
+		
+	}
+}
+
+EsurientesBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

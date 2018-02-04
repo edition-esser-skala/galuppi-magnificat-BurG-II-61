@@ -175,6 +175,19 @@ MagnificatSopranoLyrics = \lyricmode {
 	les. %81 finis
 }
 
+EsurientesSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		
+	}
+}
+
+EsurientesSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

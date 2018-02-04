@@ -93,6 +93,15 @@ MagnificatViolinoI = {
 	}
 }
 
+EsurientesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

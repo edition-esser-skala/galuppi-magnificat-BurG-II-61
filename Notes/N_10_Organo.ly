@@ -173,6 +173,124 @@ MagnificatBassFigures = \figuremode {
 	r1 %81 finis
 }
 
+
+
+EsurientesOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		r4 \mvTr f\pE-\soloE f f,
+		r f' f a
+		g b c c,
+		f f b b %85
+		a d g, c
+		f, f f f
+		r f f f
+		r e e e
+		r f\p f f %90
+		r e e e
+		d d h h
+		c c a a
+		f f f' f
+		g f e d %95
+		c d e f
+		g g g, g
+		c c b! b
+		r a a a
+		r b b b %100
+		r g' g g
+		r e e e
+		r f f f
+		r d d d
+		r e e e %105
+		f f d d
+		a a b b
+		r b' b b
+		f g a b
+		c1 %110
+		f,2 r
+		r4 f f f
+		r f a a
+		b a g c,
+		f f f f %115
+		f f e e
+		r d d d
+		r c c c
+		r b h h
+		r c e c %120
+		r g' h g
+		r c, e c
+		r g' h g
+		e e h h
+		c c a' fis %125
+		r g f f
+		e r d r
+		c r f r
+		e r d r
+		e e h h %130
+		c c d f
+		g g g, g
+		c c f f
+		g f e a
+		d, d h h %135
+		c r d r
+		e r f r
+		d r c d
+		e f g g
+		g, g c r %140
+		r f f f
+		r f f f
+		r f f f
+		r f f f
+		r a a a %145
+		r b h h
+		r b b b
+		r a a a
+		r g e c
+		r f, f' e %150
+		d d d d
+		r c e c
+		r f a f
+		r c e c
+		r f a f %155
+		r c' a f
+		b, r c r
+		d b' a c
+		c c c, c
+		f f a, a %160
+		r b b b
+		r a a a
+		r b b b
+		r g' g g
+		r a a a %165
+		r d, d d
+		r g g g
+		r c, c c
+		f r d r
+		a r b b %170
+		c c d b
+		b b c2\fermata
+		f4 f f g
+		r a a a
+		r b b b %175
+		r g g g
+		r e e e
+		r f f f
+		r d d d
+		r e e e %180
+		f f d d
+		a a b c
+		d b' a b
+		c2 c,
+		f r \bar "||" %185 finis
+	}
+}
+
+EsurientesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
