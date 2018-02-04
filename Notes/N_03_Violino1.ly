@@ -8,13 +8,13 @@ MagnificatViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoMagnificat
-		r32 g'(\fE a h c d e fis)
+		r32 \mvDll g'(\fE a h c d e fis)
 		g8.[-! d16-! h8.-! d16]-! g,4 r32 e( fis g a h c d)
 		e8.[ h16 g8. h16] e,4 r32 c( d e f g a h)
 		c8.[ g16 e8. g16] c,8 c' r h,
 		a a' r g d4~ d8[ r16 a']\p
-		h8. h16 cis8. cis16 \appoggiatura cis8 d4~ d8. fis,16 %5
-		g8.[ g16 e8. e16] fis4 r32 g(\f a h c d e fis)
+		h8.[ h16 cis8. cis16] \appoggiatura cis8 d4~ d8. fis,16 %5
+		g8.[ g16 e8. e16] fis4 r32 \mvDll g(\f a h c d e fis)
 		g8.[ d16 h8. d16] h2
 		r4 r32 e,( fis g a h c d) e8.[ h16 g8. h16]
 		g'2 r4 r32 c,,( d e f? g a h)
@@ -89,7 +89,7 @@ MagnificatViolinoI = {
 		h4 e fis!2
 		gis4 a gis a~
 		a gis8 fis gis2 %80
-		a2. r4 \bar "||"
+		a2. r4 \bar "||" %81 finis
 	}
 }
 
