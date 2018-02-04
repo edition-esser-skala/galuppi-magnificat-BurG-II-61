@@ -96,7 +96,92 @@ SuscepitViola = {
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-			
+		r4 \mvTr c\fE-\markup { \remark "legato" } e
+		g f e
+		d g-\critnote g,
+		c2 c'4
+		h2 e,4 %190
+		a2 d,4
+		g e f
+		g g g,
+		r c\pE e
+		g f e %195
+		d g g,
+		c2 c'4
+		h2 h4
+		a d d,
+		r g h %200
+		d c h
+		a d d,
+		g2 f!4
+		e2 a4
+		f g g, %205
+		c r r
+		h2.
+		cis
+		d
+		h %210
+		c
+		fis,
+		g
+		e'
+		f %215
+		h,
+		c4 c2\fE
+		d4 d2
+		c4 c d
+		e e2 %220
+		d4 e2
+		d4 d e
+		d d d
+		r g,\pE h
+		d c h %225
+		a d d,
+		f g' f
+		e r a
+		f g g,
+		r c e %230
+		g f e
+		d g g,
+		c r b
+		a r d
+		b b a %235
+		g c c,
+		f r f'
+		e r a
+		f g g,
+		c2. %240
+		r4 c c
+		g' g g
+		g2.
+		fis
+		f %245
+		e
+		fis
+		h,
+		e
+		a,4 h c %250
+		g a2
+		g2 d'4\f
+		c h2
+		e4 a,2
+		h4 d c~ %255
+		c h d
+		e d2\p
+		c4 h2
+		e4 a,2
+		h\fE c4 %260
+		c h d
+		c c e
+		g f e
+		d g g,
+		c2 c4 %265
+		h2 e4
+		a,2 d4
+		g, e' f
+		g g, g
+		c c c %270
+		c2 r4 \bar "||" %271 finis
 	}
 }
 
