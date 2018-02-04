@@ -128,7 +128,7 @@
 		\header {
 			movement = "3 SUSCEPIT ISRAEL"
 		}
-		\paper { systems-per-page = #1 }
+		\paper { systems-per-page = #1 page-count = #6 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -183,7 +183,7 @@
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 2. = 60 }
+			\midi { \tempo 2. = 60 }
 		}
 	}
 }

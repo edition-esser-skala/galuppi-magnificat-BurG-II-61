@@ -137,7 +137,7 @@ SuscepitViola = {
 		r g,\pE h
 		d c h %225
 		a d d,
-		f g' f
+		g-\critnote g' f!
 		e r a
 		f g g,
 		r c e %230
