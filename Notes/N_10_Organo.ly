@@ -21,7 +21,7 @@ MagnificatOrgano = {
 		r8 r16 g[ e8. g16] c,4 h %10
 		a g d'2
 		g,2. r4
-		R1*2
+		\tempoMagnificatB R1*2
 		r4 g' g fis %15
 		e a2 g4
 		fis h e,2

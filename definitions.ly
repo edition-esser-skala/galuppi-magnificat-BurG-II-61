@@ -161,6 +161,7 @@ tempoMarkup =
 %
 
 tempoMagnificat = \tempoMarkup "Allegro"
+tempoMagnificatB = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'

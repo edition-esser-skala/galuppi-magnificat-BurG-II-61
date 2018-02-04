@@ -27,7 +27,7 @@ MagnificatSopranoNotes = {
 		r2 e4 d8. d16 %10
 		c4 h a4. a8
 		h2. r4
-		r2 r4 d
+		\tempoMagnificatB r2 r4 d
 		d c h e
 		e d8 d c4( d) %15
 		g, r r2

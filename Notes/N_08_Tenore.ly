@@ -27,7 +27,7 @@ MagnificatTenoreNotes = {
 		r e4 h8. h16 %10
 		c4 d d4. d8
 		d2. r4
-		R1*2
+		\tempoMagnificatB R1*2
 		r2 r4 d %15
 		d c h e
 		e d8 d h4( g)

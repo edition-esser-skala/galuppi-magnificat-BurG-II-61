@@ -16,7 +16,7 @@ MagnificatBassoNotes = {
 		r2 c'4 h8. h16 %10
 		a4 g d4. d8
 		g2. r4
-		R1*2
+		\tempoMagnificatB R1*2
 		r4 g g fis %15
 		e a a-\critnote g8 g
 		fis4( h e,2)

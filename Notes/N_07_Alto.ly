@@ -27,7 +27,7 @@ MagnificatAltoNotes = {
 		r2 g4 g8. g16 %10
 		fis4 g g( fis8) fis
 		g2. r4
-		r4 g g fis
+		\tempoMagnificatB r4 g g fis
 		e a a g8 g
 		fis4 h a2 %15
 		h8[ g fis e] d4 h'
@@ -78,7 +78,7 @@ MagnificatAltoNotes = {
 		f?2 e4 r8 g
 		g g r g g g r e
 		e e r e e e r4 %65
-		fis!4 g g g
+		f?4 g g g
 		g( fis) g r
 		r r8 d d8. c16 d8 e
 		f2 e4. fis8
