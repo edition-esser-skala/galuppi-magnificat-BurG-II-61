@@ -98,7 +98,96 @@ EsurientesViolinoI = {
 		\clef treble
 		\key f \major \time 2/2 \tempoEsurientes
 			\set Score.currentBarNumber = #82
-		
+		f'16(\fE c8.) c2 b8.\trill a16
+		b4.( c16 d) c4 f
+		\tuplet 3/2 4 { f8[( a g] f[ e d]) } \appoggiatura c4 b2
+		a4 a'2 g16( f e d) %85
+		c4 \tuplet 3/2 4 { f8 c a } \appoggiatura c4 b2
+		a r
+		a'16( cis,8.) \appoggiatura cis4 d4~ \tuplet 3/2 4 { d8[ d e] f[ g a] }
+		g16( h,8.) \appoggiatura h4 c2.
+		a'16(\p cis,8.) \appoggiatura cis4 d4~ \tuplet 3/2 4 { d8[ d e] f[ g a] } %90
+		g16( h,8.) \appoggiatura h4 c2 r16 g'16\fE g8\trill
+		\tuplet 3/2 4 { f8[(-. e-. d-.] c[-. h-. a-.]) } g4 f'
+		\tuplet 3/2 4 { e8[-. d-. c-.] h[-. a-. g-.] } f4 e'
+		d8. e16 f8.\trill g16 \tuplet 3/2 4 { a8[ g f] e[ d c] }
+		g4 a' \tuplet 3/2 4 { a8[ fis g] g[ e f] } %95
+		c'2~ c16(-. h-. a-. g-. f-. e-. d-. c-.)
+		g4. c8 d2\trill
+		c r4 a'8. b16
+		c( e,8.) f4 c'16( d,8.) es8.[ es16]
+		es?4\trill d r d %100
+		b' \tuplet 3/2 4 { b8([ fis g)] g([ d e)] e([ h c)] }
+		c4 c2 c4
+		a' \tuplet 3/2 4 { a8([ e f)] f([ cis d)] d([ a b)] }
+		b4 b2 b4
+		g' \tuplet 3/2 4 { g8[ d e] e[ h c] c[ a b] } %105
+		\appoggiatura b4 a4. f'8 \appoggiatura c4 b4. f'8
+		\appoggiatura d4 c4. f8 \appoggiatura es4 d4. b'8
+		\tuplet 3/2 4 { b8[ a g] g[ f e] } e4. f16 g
+		f4.\trill e16 d c4 b
+		a16( g) f4. g'2\trill %110
+		f r
+		R1*3
+		\tuplet 3/2 4 { f8([\fE a g] f[ e d)] c([-. d-. c-.] b[-. a-. g-.)] } %115
+		a2 r
+		r4 f'-!\p b-! f-!
+		r e a e
+		r2 r4 g
+		\tuplet 3/2 4 { f8[ e g] } c,4 \tuplet 3/2 4 { e8[( g f] e[ d c)] } %120
+		d2 r4 f
+		\tuplet 3/2 4 { e8[ g e] } c4 \tuplet 3/2 4 { c8[ g' f] e[ d c] }
+		d2 r
+		R1*2 %125
+		g4 g,2 a8 h
+		c8.\trill h16 c4 r2
+		g'4 g,2 a8. h16
+		c2 r
+		R1*3 %132
+		g'2\fE a16([ a,8.)] h16( c8.)
+		\appoggiatura c4 h2 \tuplet 3/2 4 { c8[ a h] c[ d e]
+			f[ e d] \appoggiatura d16 c8[ h a] } g4 f\trill %135
+		e8. c'16 c4\trill f,8. c'16 c4\trill
+		g8. c16 c4\trill a a'~
+		a h8.(\trill a32 h) c4. h16 a
+		g8( a f d) g,2
+		d'\trill c4 r %140
+		R1*5 %145
+		r4 \tuplet 3/2 4 { b8[\pE d es] f[ es d] c[ b a]
+		b[ f d] } b4 r2
+		R1*4 %151
+		r2 r4 g''
+		\tuplet 3/2 4 { a8([ e f)] f([ h, c)] } c4 \tuplet 3/2 4 { f8([ g a)]
+		g([ f e)] } \appoggiatura d4 c2 g'4
+		\tuplet 3/2 4 { a8([ e f)] f([ h, c)] } c4 f8.([ g32 a)] %155
+		\tuplet 3/2 4 { g8([ f e)] } \appoggiatura d4 c2\trill r4
+		R1*2
+		r2 r4 c'\f
+		c16( d,8.) es4 c'16( d,8.) es4 %160
+		es\trill d2 d'4\p
+		c16( d,8.) es4 c'16( d,8.) es4
+		es d r b'
+		b \tuplet 3/2 4 { b8([ fis g)] g([ d e)] e([ h c)] }
+		c2.\trill c4 %165
+		a' \tuplet 3/2 4 { a8[ e f] f[ cis d] d[ a b] }
+		b2. b4
+		g' \tuplet 3/2 4 { g8[ d e] e[ h c] c[ g b] }
+		a2 r
+		R1*2 %171
+		R1\fermataMarkup
+		f'8\fE c c f f a a b
+		\tuplet 3/2 4 { c([ e, f)] } f4 \tuplet 3/2 4 { c'8([ d, es)] c'([ d, es)] }
+		es4\trill d r r16 d d8\trill %175
+		\appoggiatura a'4 \once\tieDashed b2~ \tuplet 3/2 4 { b8[ a g] f[ e d] }
+		\appoggiatura h?4 c2. c4
+		\appoggiatura gis'4 a2~ \tuplet 3/2 4 { a8[ g f] e[ d c] }
+		\appoggiatura a4 b2. b4
+		\appoggiatura fis'4 g2~ \tuplet 3/2 4 { g8[ f e] d[ c b] } %180
+		\appoggiatura b4 a4. f'8 \appoggiatura c4 b4. f'8
+		\appoggiatura b,4 c4. es8 d( e16 f) e8([ f16 g)]
+		f4.\trill e16 d c4 b
+		a4.\trill g16 f g2\trill
+		f r \bar "||" %185 finis
 	}
 }
 

@@ -189,7 +189,7 @@ EsurientesOrgano = {
 		r f f f
 		r e e e
 		r f\p f f %90
-		r e e e
+		r e e e\fE
 		d d h h
 		c c a a
 		f f f' f
@@ -213,8 +213,8 @@ EsurientesOrgano = {
 		r4 f\pE f f
 		r f a a
 		b a g c,
-		f f f f %115
-		f f e e
+		f\fE f f f %115
+		f\pE f e e
 		r d d d
 		r c c c
 		r b h h
@@ -244,7 +244,7 @@ EsurientesOrgano = {
 		r f f f
 		r f f f
 		r a a a %145
-		r b b? b
+		r b b b
 		r b b b
 		r a a a
 		r g e c
@@ -258,9 +258,9 @@ EsurientesOrgano = {
 		b, r c r
 		d b' a c
 		c c c, c
-		f f a, a %160
+		f\fE f a, a %160
 		r b b b
-		r a a a
+		r a\pE a a
 		r b b b
 		r g' g g
 		r a a a %165

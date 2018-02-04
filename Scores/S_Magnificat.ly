@@ -94,7 +94,7 @@
 		\header {
 			movement = "2 ESURIENTES"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 % 				\new StaffGroup <<

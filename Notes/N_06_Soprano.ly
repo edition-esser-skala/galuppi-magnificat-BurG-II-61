@@ -220,7 +220,7 @@ EsurientesSopranoNotes = {
 		c~
 		c %155
 		c2 r4 c
-		d8[ c16 b] \acciaccatura c b8[ a16 g] e'8[ d16 c] \acciaccatura d c8[ b16 a]
+		d8[ c16 b] \appoggiatura c b8[ a16 g] e'8[ d16 c] \appoggiatura d c8[ b16 a]
 		f'4.\trill e16[ d] c4 b
 		a16[( g] f4. g2)\trill
 		f r %160
@@ -233,7 +233,7 @@ EsurientesSopranoNotes = {
 		b4 b8. b16 b4 c8. d16
 		e4. f8 \tuplet 3/2 4 { g[ f e] d[ c b] }
 		a8[ r16 c] c4\trill b8[ r16 d] d4\trill
-		c8[ r16 e] e4\trill d8[ c16 b] \acciaccatura c b8[ a16 g] %170
+		c8[ r16 e] e4\trill d8[ c16 b] \appoggiatura c b8[ a16 g] %170
 		e'8[ d16 c] c8[ b16 a] f'4.\trill e16[ d]
 		c4 b f(\fermata g)\trill
 		f2 r
