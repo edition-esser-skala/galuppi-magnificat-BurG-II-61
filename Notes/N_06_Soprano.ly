@@ -305,7 +305,7 @@ SuscepitSopranoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
 		R2.*14 %199
-		\mvTr g'2.\fE^\tuttiE %200
+		\mvTr g'2.\pE^\tuttiE %200
 		a2 h4
 		c \appoggiatura h a2
 		h4 d2~
@@ -320,7 +320,7 @@ SuscepitSopranoNotes = {
 		b c2
 		a4 f g %215
 		as2.
-		g4 c2
+		g4 c2\fE
 		c4 h2
 		b8 b a4 d
 		d cis2 %220
@@ -329,7 +329,7 @@ SuscepitSopranoNotes = {
 		h( \appoggiatura h4 a2)
 		h4 r r
 		R2.*9 %233
-		f2.
+		f2.\pE
 		g2 a4 %235
 		b \appoggiatura a g2
 		a4 d2~
@@ -346,7 +346,7 @@ SuscepitSopranoNotes = {
 		b b2
 		a4( d c %250
 		h!) c2
-		c4 h h
+		c4 h h\fE
 		c d2
 		g,4 c2
 		h( c4~ %255

@@ -165,14 +165,14 @@ SuscepitTenoreNotes = {
 		d2.
 		d4 r r
 		R2.*16 %240
-		r4 c c
+		r4 c\pE c
 		g' g g
 		g g2
 		fis4 d e
 		f f^\critnote f %245
 		e r r
 		R2.*5 %251
-		r4 r d
+		r4 r d\fE
 		c h2
 		e4 a,2
 		h4( f' e~ %255

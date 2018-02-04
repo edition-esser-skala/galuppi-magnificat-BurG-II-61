@@ -400,7 +400,7 @@ SuscepitOrgano = {
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		r4 \mvTr c\fE-\tutti e
+		r4 \mvTr c\fE-\tutti-\markup { \remark "legato" } e
 		g f e
 		d g-\critnote g,
 		c2 c'4
@@ -408,7 +408,7 @@ SuscepitOrgano = {
 		a2 d,4
 		g e f
 		g g g,
-		r c e
+		r c\pE e
 		g f e %195
 		d g g,
 		c2 c'4
@@ -431,22 +431,22 @@ SuscepitOrgano = {
 		e'
 		f %215
 		h,
-		c4 es2
+		c4 es2\fE
 		d4 g2
 		c,4 f f
 		e a,2 %220
 		d4 cis2
 		d4 g c,
 		d d d
-		r g,( h)
-		d( c h) %225
+		r g,\pE h
+		d c h %225
 		a d d,
-		f g'( f)
+		f g' f
 		e r a
 		f g g,
-		r c( e) %230
-		g( f e)
-		d( g g,)
+		r c e %230
+		g f e
+		d g g,
 		c r b
 		a r d
 		b b a %235
@@ -466,7 +466,7 @@ SuscepitOrgano = {
 		cis
 		d4 h' c %250
 		g fis fis
-		g2 g,4
+		g2 g,4\fE
 		a h2
 		c4 fis2
 		g c,4 %255
@@ -543,7 +543,7 @@ SuscepitBassFigures = \figuremode {
 	<7 _-> <6 3> <5 \t>
 	<5>2 <6>4
 	<7> <6> r
-	<5>8 <6> r2
+	<5>8 <6> <6 4>4 <5 3>
 	r2. %240
 	<6 5>
 	r

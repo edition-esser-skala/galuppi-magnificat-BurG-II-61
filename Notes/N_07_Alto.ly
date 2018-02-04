@@ -174,7 +174,7 @@ SuscepitAltoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
 		R2.*8 %193
-		\mvTr c2.\fE^\tuttiE
+		\mvTr c2.\pE^\tuttiE
 		d2 e4 %195
 		f \appoggiatura e d2
 		e4 a2~
@@ -191,7 +191,7 @@ SuscepitAltoNotes = {
 		es2.
 		d4 r r
 		R2.*3 %216
-		r4 g2
+		r4 g2\fE
 		fis4 f2
 		e8 e f!4 a
 		gis g2 %220
@@ -200,13 +200,13 @@ SuscepitAltoNotes = {
 		g( \appoggiatura g fis?2)
 		g4 r r
 		R2.*5 %229
-		c,2. %230
+		c,2.\pE %230
 		d2 e4
 		f \appoggiatura e d2
 		e4 c'2~
 		c4 c, f~
 		f g( f~ %235
-		f e2)
+		f \appoggiatura f e2)^\critnote
 		f4 r r
 		R2.*7 %244
 		r4 d d %245
@@ -216,7 +216,7 @@ SuscepitAltoNotes = {
 		g g2
 		f!2(^\critnote e4 %250
 		d) d2
-		e4 d g
+		e4 d g\fE
 		fis f2
 		e4 es2
 		d( e4 %255

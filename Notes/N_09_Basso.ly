@@ -164,7 +164,7 @@ SuscepitBassoNotes = {
 		d2.
 		g4 r r
 		R2.*14 %238
-		r4 g g
+		r4 g\pE g
 		c c c %240
 		c c2
 		h4 g a
@@ -177,7 +177,7 @@ SuscepitBassoNotes = {
 		e e2
 		d8 d, d4 r %250
 		R2.
-		r4 r g
+		r4 r g\fE
 		a h2
 		c4 fis,2
 		g2( c4 %255

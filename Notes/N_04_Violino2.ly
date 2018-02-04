@@ -99,7 +99,89 @@ SuscepitViolinoII = {
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-			
+		r4 \mvTr e\fE-\markup { \whiteout \remark "legato" } c
+		h2 c4
+		d \appoggiatura c h2
+		c e4
+		d2 h4 %190
+		c2 d4
+		d e d
+		c8. d16 \appoggiatura c4 h2
+		c4\pE d c
+		h2 c4 %195
+		d \appoggiatura c h2
+		c e4
+		d2 d4
+		c \appoggiatura h a2
+		h4 h' g %200
+		fis2 g4
+		a \appoggiatura g fis2
+		g a4
+		g2 e4
+		a8 f! \appoggiatura e4 d2 %205
+		e4 r r
+		g2.
+		g
+		fis
+		f %210
+		e
+		es
+		d4 r r
+		c2.
+		c %215
+		f
+		e4 c'2\f^\critnote
+		c4 h2
+		b4 a d
+		d cis2 %220
+		c4 h!2
+		a8-! fis'-! g-! h,-! c-! a-!
+		g h fis4 a
+		g2.\pE
+		fis2 g4 %225
+		a \appoggiatura g fis2
+		g4 h a
+		g2 e4
+		f! \appoggiatura e d2
+		c2. %230
+		d2 e4
+		f \appoggiatura e d2
+		e4 \once \tieDashed c'2~
+		c4 a f
+		f g f~ %235
+		f8 g \appoggiatura f4 e2
+		f2 a4
+		g2 e4
+		f \appoggiatura e d2
+		e4 r r %240
+		R2.*4
+		r4 d d %245
+		a'2.
+		a
+		gis
+		g
+		f!4 f e %250
+		d e2
+		e4 d h'\f
+		c d2
+		g,4 c2
+		h8 g d' h c g %255
+		a c d, h' d, h'
+		c4 h2\p
+		c4 d2
+		g,4 c2
+		h8 g d' h e c %260
+		a c d, h' d, h'
+		c,2.
+		h2 c4
+		d \appoggiatura c h2
+		c2 e4 %265
+		d2 h4
+		c2 d4
+		d e d
+		c h d
+		e c c %270
+		c2-\critnote r4 \bar "||" %271 finis
 	}
 }
 

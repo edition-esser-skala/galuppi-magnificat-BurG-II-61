@@ -197,7 +197,7 @@ SuscepitViolinoI = {
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		c2.\fE %186
+		\mvTr c2.\fE-\markup { \whiteout \remark "legato" } %186
 		d2 e4
 		f \appoggiatura e d2
 		e4 a2~
