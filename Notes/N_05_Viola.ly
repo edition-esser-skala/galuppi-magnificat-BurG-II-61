@@ -191,7 +191,111 @@ SicutViola = {
 		\clef treble
 		\key g \major \time 2/2 \tempoSicut
 			\set Score.currentBarNumber = #263
-		
+		h4\fE d g c
+		a a a2
+		a4 r g r %265
+		fis g g,2
+		fis'4\p r g r
+		c, h h2
+		r4 r8 a' g8. f16 e8. d16
+		c4 c c,2 %270
+		r4 r8 h'' a8. g16 fis8. e16
+		d1:8~-\critnote
+		d:~
+		\once \tieDashed d:~
+		d: %275
+		r4 fis a fis
+		r d d fis
+		r d d fis
+		g e d a
+		r d\p d fis %280
+		r d d fis
+		g\f e d a'
+		g e d a
+		h2 r
+		r4 g\pE h c %285
+		d d d,2
+		fis'4 r g r
+		c h h,2
+		fis'4 r g r
+		c, h h2 %290
+		r4 r8 e d8. c16 h8. a16
+		g4 g' g g
+		fis fis fis fis
+		f f f f
+		e e e e %295
+		gis gis gis gis
+		a a a a
+		d, d d d
+		fis fis fis fis
+		g g a a %300
+		h h h h
+		a a a,2
+		a1
+		a
+		a %305
+		r4 a h cis
+		d fis a cis,
+		d fis a cis,
+		d e fis g
+		a a a, a %310
+		fis'\fE fis g h
+		r d, fis fis
+		cis e a, h'
+		e, e a d
+		d, g fis e %315
+		fis2 r
+		r4 g,\pE h c
+		d d, d2
+		fis'4 r g r
+		c, h h fis' %320
+		g r e r
+		d d d,2
+		r4 r8 e' d8. c16 h8. a16
+		g2 r
+		g'4 g g g %325
+		g g g g
+		c, c c c
+		c c c c
+		g' g g g
+		g g g g %330
+		d d d d
+		d d d d
+		g g a a
+		h h c c
+		d d, fis d %335
+		r g fis d
+		r g fis d
+		e c h c
+		d d d, d
+		g2 r %340
+		h4 h c c
+		d2 r
+		fis4 r g-\critnote r
+		c, h h2
+		h4 h c c %345
+		d2 r
+		fis4 r cis r
+		d fis a fis
+		r g fis d
+		r g fis d %350
+		r g fis d
+		e c h c
+		d d d, d
+		g g' fis d
+		r g\pE fis d %355
+		r g fis d
+		r g fis d
+		e\f c h c
+		d d d, d
+		h' h c d %360
+		e cis d e
+		fis fis a fis
+		r h\p a fis
+		r h a fis
+		d\f d r g %365
+		g e d c
+		h2 r \bar "||" %367 finis
 	}
 }
 

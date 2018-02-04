@@ -672,7 +672,7 @@ SicutOrgano = {
 		e c h c
 		d d d, d
 		g g' fis d
-		r g fis d %355
+		r g\pE fis d %355
 		r g fis d
 		r g fis d
 		e\f c h c
