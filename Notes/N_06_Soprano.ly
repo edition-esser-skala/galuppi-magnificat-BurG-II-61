@@ -44,7 +44,7 @@ MagnificatSopranoNotes = {
 		r2 e'4 d
 		c! c d d8 c
 		h4 h8 h c4 c8 h
-		a4 a h8([ c)] h([ a)] %30
+		a4 a h8([ cis?)] h([ a)] %30
 		g g a h c4.( a8
 		dis4 e2 dis4)
 		e r r2

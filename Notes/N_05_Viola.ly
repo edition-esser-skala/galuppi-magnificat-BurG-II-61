@@ -6,8 +6,8 @@
 
 MagnificatViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key g \major \time 4/4 \tempoMagnificat
 		\partial 4 r4
 		r8 r16 d[ h8. d16] g,4 r
@@ -33,7 +33,7 @@ MagnificatViola = {
 		d d a' a a a e e
 		d d a' a a a fis fis
 		e e a a g g a a
-		fis fis fis fis fis fis ais ais %25
+		fis fis g-\critnote g fis fis ais ais %25
 		h h h h ais ais ais cis
 		fis, fis h h h h h h
 		c! a a a a a fis fis
@@ -41,7 +41,7 @@ MagnificatViola = {
 		c c a' a a a fis fis %30
 		g g g g g fis fis fis
 		fis fis g g h g fis fis
-		g4 fis fis dis
+		g4 g-\critnote fis dis
 		r g fis dis r
 		gis h gis r %35
 		c h gis r
