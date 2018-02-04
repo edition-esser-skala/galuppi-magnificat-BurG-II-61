@@ -197,7 +197,89 @@ SuscepitViolinoI = {
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-			
+		c2.\fE %186
+		d2 e4
+		f \appoggiatura e d2
+		e4 a2~
+		a8 d g,4 g~ %190
+		g8 c f,4 f
+		h c f,
+		e8. f16 \appoggiatura e4 d2
+		c2.\p
+		d2 e4 %195
+		f \appoggiatura e d2
+		e4 a2~
+		a8 d g,4 g~
+		g8 a \appoggiatura g4 fis2-\critnote
+		g2. %200
+		a2 h4
+		c \appoggiatura h a2
+		h4 d2~
+		d8 g, c4 c~
+		c8 d \appoggiatura c4 h2 %205
+		c4 r r
+		d2.
+		e
+		a,
+		d %210
+		g,
+		c
+		h
+		b
+		a %215
+		as
+		g4 g'2\f
+		fis4 f2
+		e4 f! a
+		gis g2 %220
+		fis4 g2
+		fis?8-! a-! h-! d,-! e-! c-!
+		h g' d,4 fis'
+		g,2.\p
+		a2 h4 %225
+		c \appoggiatura h a2
+		h8 g d'4 d~
+		d8 g, c4 c~
+		c8 a \appoggiatura c4 h2
+		c4 r r %230
+		R2.*3
+		f,2.
+		g2 a4 %235
+		b \appoggiatura a g2
+		a8 f d'4 d~
+		d8 g, c4 c~
+		c8 a \appoggiatura c4 h!2
+		c4 r r %240
+		R2.*2
+		r4 g g
+		d' d d
+		d2. %245
+		cis
+		c
+		h!
+		b
+		a4 d c %250
+		h! c2
+		c4 h g'\f
+		fis f2
+		e4 es2
+		d8-! h-! f'-! d-! e-! c-! %255
+		a c d, h' d, h'
+		c4 g'2\p
+		fis4 f2
+		e4 es2
+		d8\f h d h e c %260
+		a c d, h' d, h'
+		c,2.
+		d2 e4
+		f \appoggiatura e d2
+		e4 a2~ %265
+		a8 d g,4 g~
+		g8 c f,4 f
+		h c f,
+		e8 c' d,4 h'\trill
+		c c, c %270
+		c2-\critnote r4 \bar "||" %271 finis
 	}
 }
 

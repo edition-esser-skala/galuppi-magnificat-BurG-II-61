@@ -402,7 +402,7 @@ SuscepitOrgano = {
 			\set Score.currentBarNumber = #186
 		r4 \mvTr c\fE-\tutti e
 		g f e
-		d f g,
+		d g-\critnote g,
 		c2 c'4
 		h2 e,4 %190
 		a2 d,4

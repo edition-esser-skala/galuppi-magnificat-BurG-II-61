@@ -334,7 +334,7 @@ SuscepitSopranoNotes = {
 		b \appoggiatura a g2
 		a4 d2~
 		d8 c c2~
-		c8([ d)] h!2
+		c8([ d)] \appoggiatura c4 h!2^\critnote
 		c4 r r %240
 		R2.*2
 		r4 g g

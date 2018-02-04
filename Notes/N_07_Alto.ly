@@ -193,7 +193,7 @@ SuscepitAltoNotes = {
 		R2.*3 %216
 		r4 g2
 		fis4 f2
-		e8 e f4 a
+		e8 e f!4 a
 		gis g2 %220
 		fis4( g2
 		fis4) g a
