@@ -12,10 +12,10 @@ MagnificatOrgano = {
 		r8 r16 \mvTr d'[\fE-\tuttiE h8. d16] g,4 r
 		r8 r16 h16[ g8. h16] e,4 r
 		r8 r16 g[ e8. g16] c,8 r h r
-		a r g r d'4 d
+		a r g r d'4 d\pE
 		d d d r %5
 		d d d r
-		r8 r16 d'[ h8. d16] g,2
+		r8 r16 d'[\fE h8. d16] g,2
 		g, r8 r16 h'[ g8. h16]
 		e,1
 		r8 r16 g[ e8. g16] c,4 h %10
@@ -110,9 +110,9 @@ MagnificatBassFigures = \figuremode {
 	r1
 	r8 <6 5> <6>4 <7 _+>2
 	<6 5> <4>4 <_+> %20
-	r1
-	r
-	r
+	r2 <6>
+	r4 <6> r q
+	r q r2
 	<_+>2 <6>4 <6 5>
 	r <7 _+> r <5+ _+> %25
 	<7> <6> <5+ _+>2
@@ -136,7 +136,7 @@ MagnificatBassFigures = \figuremode {
 	r
 	r %45
 	r
-	r4 <4> <_!>2
+	r4 <_!>2.
 	<6>1
 	<4>4 <3>2.
 	<6- 5>4 <\t 4> <6 5->2 %50
@@ -147,16 +147,16 @@ MagnificatBassFigures = \figuremode {
 	<8> <8 6>2 <8 6\!>4 %55
 	<8 6> \bassFigureExtendersOff <6>8 <8> r2
 	<4>2 <3>
-	r1
-	r
-	r %60
+	r <6>
+	r4 q r q
+	r q r2 %60
 	r2 <6->4 <6 5->
 	<9 4->8 <8 3> r <7-> <6->4 <6 5->
 	r4 <7 5!> r2
 	<6 5!> q
 	<6 5> q %65
-	<_+>2. <6>4
-	<7> <6> r2
+	<_!>2. <6>4
+	<7> <6\\> r2
 	r1
 	r
 	r %70
@@ -167,8 +167,8 @@ MagnificatBassFigures = \figuremode {
 	<6>2. <_!>4 %75
 	<4 2> <6> r <6>
 	<4 2> <6> r q
-	<5 _+>2 <4 2>
-	<5 _+>4 <6 4> <5 _+> <6 4>
+	<5 _+>2 <8 4 2>4 <7 \t \t>
+	<7 _+>4 <6 4> <5 _+> <6 4>
 	<4>2 <_+> %80
 	r1 %81 finis
 }
