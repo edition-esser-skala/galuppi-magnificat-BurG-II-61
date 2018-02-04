@@ -91,8 +91,8 @@ MagnificatViola = {
 
 SuscepitViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key c \major \time 3/4 \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
@@ -182,6 +182,16 @@ SuscepitViola = {
 		g g, g
 		c c c %270
 		c2 r4 \bar "||" %271 finis
+	}
+}
+
+SicutViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key g \major \time 2/2 \tempoSicut
+			\set Score.currentBarNumber = #263
+		
 	}
 }
 

@@ -185,6 +185,15 @@ SuscepitViolinoII = {
 	}
 }
 
+SicutViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoSicut
+			\set Score.currentBarNumber = #263
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

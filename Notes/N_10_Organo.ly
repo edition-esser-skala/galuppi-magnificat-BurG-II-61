@@ -578,6 +578,19 @@ SuscepitBassFigures = \figuremode {
 	r %271 finis
 }
 
+SicutOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/2 \tempoSicut
+			\set Score.currentBarNumber = #263
+		\mvTr g'4\fE-\soloE g h c
+	}
+}
+
+SicutBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

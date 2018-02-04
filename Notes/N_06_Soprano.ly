@@ -416,6 +416,19 @@ SuscepitSopranoLyrics = \lyricmode {
 	ae. %262 finis
 }
 
+SicutSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \autoBeamOff \tempoSicut
+			\set Score.currentBarNumber = #263
+		
+	}
+}
+
+SicutSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
