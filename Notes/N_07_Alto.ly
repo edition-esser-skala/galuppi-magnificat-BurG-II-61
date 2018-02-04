@@ -173,12 +173,118 @@ SuscepitAltoNotes = {
 		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		
+		R2.*8 %193
+		\mvTr c2.\fE^\tuttiE
+		d2 e4 %195
+		f \appoggiatura e d2
+		e4 a2~
+		a8 g g2~
+		g8([ a)] \appoggiatura g4 fis2
+		g4 r r %200
+		R2.*5 %205
+		r4 c, c
+		g' g g
+		g g2
+		g8 fis fis4 d
+		f f2 %210
+		e4 c d
+		es2.
+		d4 r r
+		R2.*3 %216
+		r4 g2
+		fis4 f2
+		e8 e f4 a
+		gis g2 %220
+		fis4( g2
+		fis4) g a
+		g( \appoggiatura g fis?2)
+		g4 r r
+		R2.*5 %229
+		c,2. %230
+		d2 e4
+		f \appoggiatura e d2
+		e4 c'2~
+		c4 c, f~
+		f g( f~ %235
+		f e2)
+		f4 r r
+		R2.*7 %244
+		r4 d d %245
+		a' a a
+		a a2
+		gis4 e fis
+		g g2
+		f2(^\critnote e4 %250
+		d) d2
+		e4 d g
+		fis f2
+		e4 es2
+		d( e4 %255
+		a g2)
+		e4 g2\p
+		fis4 f2
+		e4 es2
+		d(\f e4 %260
+		a g2)
+		g r4
+		R2.*9 \bar "||" %271 finis
 	}
 }
 
 SuscepitAltoLyrics = \lyricmode {
+	Sus -- %194
+	ce -- pit %195
+	Is -- ra --
+	el pu --
+	e -- rum __
+	su --
+	um, %200
 	
+	re -- cor -- %206
+	da -- tus mi --
+	se -- ri --
+	cor -- di -- ae, mi --
+	se -- ri -- %210
+	cor -- di -- ae
+	su --
+	ae,
+	
+	mi -- %217
+	se -- ri --
+	[cor -- di -- ae, mi --
+	se -- ri -- %220
+	cor --
+	di -- ae
+	su --
+	ae.
+	
+	Sus -- %230
+	ce -- pit
+	Is -- ra --
+	el pu --
+	e -- rum __
+	su -- %235
+	
+	um,
+	
+	re -- cor -- %245
+	da -- tus mi --
+	se -- ri --
+	cor -- diae, mi --
+	se -- ri --
+	cor -- %250
+	diae
+	su -- ae, mi --
+	se -- ri --
+	cor -- diae
+	su -- %255
+	
+	ae, mi --
+	[se -- ri --
+	cor -- diae
+	su -- %260
+	
+	ae.] %262 finis
 }
 
 % AltoNotes = {
