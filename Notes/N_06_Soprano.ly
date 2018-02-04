@@ -421,12 +421,156 @@ SicutSopranoNotes = {
 		\clef treble
 		\key g \major \time 2/2 \autoBeamOff \tempoSicut
 			\set Score.currentBarNumber = #263
-		
+		R1*22 %284
+		\mvTr d'4\pE^\soloE h8. c16 d4 g, %285
+		g( fis2) r8 d'
+		\appoggiatura d4 c4.( d8) \appoggiatura c4 h4.( c8)
+		a4 g r r8 d'
+		\appoggiatura d4 c4.( d8) \appoggiatura c4 h4.( c8)
+		a4 g r2 %290
+		d'8. g,16 g4 r r8 d
+		g4.( a8) h4 cis
+		d d, r d'
+		\tuplet 3/2 4 { d8[ f e] } d4~ \tuplet 3/2 4 { d8[ f e] } d4
+		\tuplet 3/2 4 { r8 gis,[ fis] gis[ a gis] a[ d c] d[ f e] } %295
+		f4 e2 d4
+		\tuplet 3/2 4 { c8[ e d] } c4~ \tuplet 3/2 4 { c8[ e d] } c4
+		\tuplet 3/2 4 { r8 fis,![ e] fis[ a g] a[ c h] c[ h a] }
+		e'4 d2^\critnote c4
+		\tuplet 6/4 2 { h8[ g a h cis d] cis[ a h cis d e] %300
+		d[ fis e d cis h] } a4 gis
+		a8.\trill gis?16 a4 r r8 a
+		h2 cis4. cis8
+		d2 e4. e8
+		f2 gis, %305
+		a4 g2 fis!8[ e]
+		fis8.[ d'16] d4\trill cis8[ r16 g] g4\trill
+		fis8.[ d'16] d4\trill cis8[ r16 g'] g4\trill
+		fis e16([ d8.)] cis16([ h8.)] a16([ g8.)]
+		fis16[ e] d4. e'4.\trill d8 %310
+		d2 r
+		R1*5 %316
+		d4 h8. c16 d4 g,
+		\appoggiatura g fis2. d'4
+		\appoggiatura d4 c4.( d8) \appoggiatura c4 h4.( c8)
+		a4 g r r8 d' %320
+		c4 h8. a16 g8.([ a16)] h8.([ cis16)]
+		d4 d, r2
+		d'4. g,8 g2
+		r2 r4 g
+		g4.( h8) h4. d8 %325
+		f4 e2 d4
+		e16[ d] c4. c2\trill
+		\tuplet 3/2 4 { e8[ d c] c[ h a] e'[ d c] c[ d e] }
+		d32[( c h8.]) h2.\trill
+		\tuplet 3/2 4 { d8[ c h] h[ a g] g'[ fis e] d[ c h] } %330
+		c32[ h a8.] a2.\trill
+		\tuplet 3/2 4 { c8[ h a] a[ g fis] e'[ d c] c[ h a] }
+		h4.\trill a16[ h] c4.\trill h16[ c]
+		d4.\trill c16[ h] a4 g
+		d'4. d,8 d4 d' %335
+		d2 d4. d8
+		d2 d4. d8
+		g4. fis16[ e] d4 c
+		h16[ a] g4. a\trill g8
+		g2 r %340
+		d'4 c8. h16 a4 g
+		\appoggiatura g fis2. d4
+		c'4.( d8) \appoggiatura c h4.( c8)
+		a4 g r2
+		d'4( c8.[ h16)] a4 g %345
+		d' d, r2
+		c'4( h8.[ a16] h4.)\trill a8
+		a2 r
+		r r4 d
+		d2 d4. d8 %350
+		d2 d4. d8
+		g4. fis16[ e] d4 c
+		h16[ a] g4. a\trill g8
+		g2 r
+		r r4 r8 d'\p %355
+		d2 d4. d8
+		d2 d4. e16([ fis)]
+		g4.\f fis16[ e] d4 c
+		h16[ a] g4. a\trill g8
+		g2 r %360
+		R1*7 \bar "||" %367 finis
 	}
 }
 
 SicutSopranoLyrics = \lyricmode {
+	Si -- cut lo -- cu -- tus %285
+	est __ ad
+	pa -- tres __
+	no -- stros, ad
+	pa -- tres __
+	no -- stros, %290
+	A -- bra -- ham et
+	se -- mi -- ni
+	e -- ius in
+	sae -- _ _
+	_ _ _ _ %295
+	_ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ %300
+	_ _ _
+	_ cu -- la, et
+	se -- mi -- ni
+	e -- ius in
+	sae -- _ %305
+	_ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ 
+	_ _ _ cu -- %310
+	la.
 	
+	Si -- cut lo -- cu -- tus %317
+	est __ ad
+	pa -- tres __
+	no -- stros, ad %320
+	pa -- tres, ad pa -- tres __
+	no -- stros,
+	A -- bra -- ham
+	et
+	se -- mi -- ni %325
+	e -- ius in
+	sae -- _ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %330
+	_ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ cu -- la, et %335
+	se -- mi -- ni
+	e -- ius in
+	sae -- _ _ _
+	_ _ _ cu --
+	la. %340
+	Si -- cut lo -- cu -- tus
+	est ad
+	pa -- tres __
+	no -- stros,
+	ad __ pa -- tres %345
+	no -- stros,
+	A -- bra --
+	ham
+	et
+	se -- mi -- ni %350
+	e -- ius in
+	sae -- _ _ _
+	_ _ _ cu --
+	la,
+	et %355
+	se -- mi -- ni
+	e -- ius in __
+	sae -- _ _ _
+	_ _ _ cu --
+	la. &360 finis
 }
 
 % SopranoNotes = {
