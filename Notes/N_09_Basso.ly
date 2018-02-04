@@ -154,12 +154,78 @@ SuscepitBassoNotes = {
 		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		
+		R2.*31 %216
+		r4 \mvTr es2\fE^\tuttiE
+		d4 g2
+		c,8 c f4 f
+		e a2 %220
+		d,4( cis2
+		d4) g c,
+		d2.
+		g4 r r
+		R2.*14 %238
+		r4 g g
+		c c c %240
+		c c2
+		h4 g a
+		b b2
+		a4 a a
+		gis2. %245
+		a4 r r
+		r a a
+		e' e e
+		e e2
+		d8 d, d4 r %250
+		R2.
+		r4 r g
+		a h2
+		c4 fis,2
+		g2( c4 %255
+		f, g2)
+		c,4 g'2\p
+		a4 h2
+		c4 fis,2
+		g2(\f c,4 %260
+		f g2)
+		c,2 r4
+		R2.*9 \bar "||" %271 finis
 	}
 }
 
 SuscepitBassoLyrics = \lyricmode {
+	Mi -- %217
+	se -- ri --
+	cor -- di -- ae, mi --
+	se -- ri -- %220
+	cor --
+	di -- ae
+	su --
+	ae.
 	
+	Re -- cor -- %239
+	da -- tus mi -- %240
+	se -- ri --
+	cor -- diae, mi --
+	se -- ri -- cor --
+	di -- ae
+	su -- %245
+	ae,
+	re -- cor --
+	da -- tus mi --
+	se -- ri --
+	cor -- di -- ae, %250
+	
+	mi --
+	se -- ri --
+	cor -- diae
+	su -- %255
+	
+	ae, mi --
+	se -- ri --
+	cor -- diae
+	su -- %260
+	
+	ae. %262 finis
 }
 
 % BassoNotes = {

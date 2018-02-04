@@ -214,7 +214,7 @@ SuscepitAltoNotes = {
 		a a2
 		gis4 e fis
 		g g2
-		f2(^\critnote e4 %250
+		f!2(^\critnote e4 %250
 		d) d2
 		e4 d g
 		fis f2
