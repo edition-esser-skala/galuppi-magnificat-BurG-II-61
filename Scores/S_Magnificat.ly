@@ -23,7 +23,9 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "Corno I, II"
+						\set Staff.instrumentName = \CorniIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\partcombine \MagnificatCornoI \MagnificatCornoII
 					>>
 				>>
