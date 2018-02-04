@@ -93,6 +93,16 @@ MagnificatViolinoII = {
 	}
 }
 
+SuscepitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+			
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

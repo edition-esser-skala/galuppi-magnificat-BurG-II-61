@@ -167,6 +167,20 @@ MagnificatAltoLyrics = \lyricmode {
 	les. %81 finis
 }
 
+SuscepitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+		
+	}
+}
+
+SuscepitAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

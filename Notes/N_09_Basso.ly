@@ -148,14 +148,17 @@ MagnificatBassoLyrics = \lyricmode {
 	les. %81 finis
 }
 
-EsurientesBassoNotes = {
+SuscepitBassoNotes = {
 	\relative c {
 		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
 		
 	}
 }
 
-EsurientesBassoLyrics = \lyricmode {
+SuscepitBassoLyrics = \lyricmode {
 	
 }
 

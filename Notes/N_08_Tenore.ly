@@ -149,6 +149,20 @@ MagnificatTenoreLyrics = \lyricmode {
 	les. %81 finis
 }
 
+SuscepitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+		
+	}
+}
+
+SuscepitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

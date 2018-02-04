@@ -298,6 +298,20 @@ EsurientesSopranoLyrics = \lyricmode {
 	nes. %173 finis
 }
 
+SuscepitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+		
+	}
+}
+
+SuscepitSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

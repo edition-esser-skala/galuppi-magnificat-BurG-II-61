@@ -394,6 +394,105 @@ EsurientesBassFigures = \figuremode {
 	r1 %85 finis
 }
 
+SuscepitOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+		r4 \mvTr c\fE-\tutti e
+		g f e
+		d f g,
+		c2 c'4
+		h2 e,4 %190
+		a2 d,4
+		g e f
+		g g g,
+		r c e
+		g f e %195
+		d g g,
+		c2 c'4
+		h2 h4
+		a d d,
+		r g h %200
+		d c h
+		a d d,
+		g2 f!4
+		e2 a4
+		f g g, %205
+		c r r
+		h2.
+		cis
+		d
+		h %210
+		c
+		fis,
+		g
+		e'
+		f %215
+		h,
+		c4 es2
+		d4 g2
+		c,4 f f
+		e a,2 %220
+		d4 cis2
+		d4 g c,
+		d d d
+		r g,( h)
+		d( c h) %225
+		a d d,
+		f g'( f)
+		e r a
+		f g g,
+		r c( e) %230
+		g( f e)
+		d( g g,)
+		c r b
+		a r d
+		b b a %235
+		g c c,
+		f r f'
+		e r a
+		f g g,
+		c2. %240
+		fis
+		g
+		cis,
+		d
+		gis, %245
+		a
+		dis
+		e
+		cis
+		d4 h' c %250
+		g fis fis
+		g2 g,4
+		a h2
+		c4 fis2
+		g c,4 %255
+		f g g,
+		c g2\p
+		a4 h2
+		c4 fis2
+		g\f c,4 %260
+		f g g,
+		r c e
+		g f e
+		d g g,
+		c2 c4 %265
+		h2 e4
+		a,2 d4
+		g, e' f
+		g g, g
+		c c c %270
+		c2 r4 \bar "||" %271 finis
+	}
+}
+
+SuscepitBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

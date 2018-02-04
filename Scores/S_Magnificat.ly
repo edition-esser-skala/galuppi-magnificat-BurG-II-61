@@ -90,110 +90,100 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			movement = "2 ESURIENTES"
-		}
-		\paper { systems-per-page = #3 }
-		\score {
-			<<
-				\new GrandStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino solo"
-						\EsurientesViolinoI
-					}
-				>>
-				\new GrandStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EsurientesSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \EsurientesSopranoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\EsurientesOrgano
-					}
-				>>
-				\new FiguredBass {
-					\EsurientesBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.3 KYRIE II"
+% 			movement = "2 ESURIENTES"
 % 		}
-% 		\paper { systems-per-page = #1 }
+% 		\paper { systems-per-page = #3 }
 % 		\score {
 % 			<<
-% 				\new StaffGroup <<
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Clarino I, II"
-% 						\partcombine \KyrieIIClarinoI \KyrieIIClarinoII
-% 					>>
+% 				\new GrandStaff <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Timpani"
-% 						\KyrieIITimpani
+% 						\set Staff.instrumentName = "Violino solo"
+% 						\EsurientesViolinoI
 % 					}
 % 				>>
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\KyrieIIViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\KyrieIIViolinoII
-% 						}
-% 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\KyrieIIViola
-% 					}
-% 				>>
-% 				\new ChoirStaff <<
+% 				\new GrandStaff <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \KyrieIISopranoNotes }
+% 						\new Voice = "Soprano" { \dynamicUp \EsurientesSopranoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Soprano \KyrieIISopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \KyrieIIAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \KyrieIIAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \KyrieIITenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \KyrieIITenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \KyrieIIBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \KyrieIIBassoLyrics
+% 					\new Lyrics \lyricsto Soprano \EsurientesSopranoLyrics
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Organo"
-% 						\KyrieIIOrgano
+% 						\EsurientesOrgano
 % 					}
 % 				>>
 % 				\new FiguredBass {
-% 					\KyrieIIBassFigures
+% 					\EsurientesBassFigures
 % 				}
 % 			>>
 % 			\layout { }
-% 			\midi { \tempo 2 = 100 }
+% 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			movement = "3 SUSCEPIT ISRAEL"
+		}
+		\paper { systems-per-page = #1 }
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SuscepitViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\SuscepitViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\SuscepitViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SuscepitSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SuscepitSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SuscepitAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SuscepitAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \SuscepitTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SuscepitTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \SuscepitBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SuscepitBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\SuscepitOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SuscepitBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 2 = 100 }
+		}
+	}
 }

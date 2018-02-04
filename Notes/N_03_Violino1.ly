@@ -191,6 +191,16 @@ EsurientesViolinoI = {
 	}
 }
 
+SuscepitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+			
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
