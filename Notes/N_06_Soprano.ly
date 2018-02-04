@@ -180,12 +180,122 @@ EsurientesSopranoNotes = {
 		\clef treble
 		\key f \major \time 2/2 \autoBeamOff \tempoEsurientes
 			\set Score.currentBarNumber = #82
-		
+		R1*30 %111
+		\mvTr c'4\pE^\soloE c2 b16([ a8.)]
+		b4.( c16[ d)] c4 c
+		\tuplet 3/2 4 { d8([ f e] f) e([ d)] } \appoggiatura c4 b2
+		a r %115
+		c4 c2( d8[ e])
+		f16[( a,8.)] b4 r b
+		e16([ gis,8.)] a4 r a
+		a16([ g8.)] d'2 f,4
+		f e2 c'4 %120
+		\tuplet 3/2 4 { h8[ d h] } g4 \tuplet 3/2 4 { d'8[ f e] d[ c h] }
+		\appoggiatura h4 c2. c4
+		\tuplet 3/2 4 { h8[ d h] } g4 \tuplet 3/2 4 { d'8[ f e] d[ c h] }
+		c8.[ g16] g4\trill d'8.[ g,16] g4\trill
+		e'8.[ g,16] g4 \tuplet 3/2 4 { f'8[ e d] c[ h c] } %125
+		\appoggiatura c2 h1
+		<c g'>4( g2) a8([ h)]
+		c8.([\trill h16)] c4 r g
+		<c g'> g2 a8.([ h16)]
+		\tuplet 3/2 4 { c8[ e d] } c4\trill \tuplet 3/2 4 { d8[ f e] } d4\trill %130
+		\tuplet 3/2 4 { e8[ g f] } e4\trill \tuplet 3/2 4 { f8[ e d] c[ h a] }
+		g2 d'\trill
+		c r
+		R1*7 %140
+		c4\pE c2 b16([ a8.)]
+		b4.( c16[ d)] c4 f
+		\tuplet 3/2 4 { es8([ d c] b[ a g] } f4) es'
+		d8.([ es?16)] f2 f,4
+		es( \appoggiatura { es'16[ f] } g2) f16([ es8.)] %145
+		d32([ c b8.)] b2 r4
+		r d2 e!4
+		f8.([ f,16)] f4 r c'
+		c16([ a8.)] b4 r b
+		b16([ g8.)] a4 r c %150
+		f a,2 h4
+		c1~
+		c~
+		c~
+		c %155
+		c2 r4 c
+		d8[ c16 b] \acciaccatura c b8[ a16 g] e'8[ d16 c] \acciaccatura d c8[ b16 a]
+		f'4.\trill e16[ d] c4 b
+		a16[( g] f4. g2)\trill
+		f r %160
+		R1
+		f8([ a c es] g4.) f16[( es])
+		es?4\trill d2.
+		r2 r4 b8. g16
+		c4 c8. c16 c4 d8. e16 %165
+		f4 f, r f8. f16
+		b4 b8. b16 b4 c8. d16
+		e4. f8 \tuplet 3/2 4 { g[ f e] d[ c b] }
+		a8[ r16 c] c4\trill b8[ r16 d] d4\trill
+		c8[ r16 e] e4\trill d8[ c16 b] \acciaccatura c b8[ a16 g] %170
+		e'8[ d16 c] c8[ b16 a] f'4.\trill e16[ d]
+		c4 b f(\fermata g)\trill
+		f2 r
+		R1*12 \bar "||" %185 finis
 	}
 }
 
 EsurientesSopranoLyrics = \lyricmode {
+	E -- su -- ri -- %112
+	en -- tes im --
+	ple -- vit bo --
+	nis %115
+	et di --
+	vi -- tes di -- 
+	mi -- sit, di --
+	mi -- sit in --
+	a -- nes, in -- %120
+	a -- _ _ _
+	_ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %125
+	nes,
+	et di --
+	mi -- sit, di --
+	mi -- sit in --
+	a -- _ _ _ %130
+	_ _ _ _
+	_ _
+	nes.
 	
+	E -- su -- ri -- %141
+	en -- tes im --
+	ple -- vit
+	bo -- nis, im --
+	ple -- vit __ %145
+	bo -- nis
+	et di --
+	vi -- tes di --
+	mi -- sit in --
+	a -- nes, di -- %150
+	mi -- sit in --
+	a --
+	
+	nes, in -- %156
+	a -- _ _ _
+	_ _ nes, in --
+	a --
+	nes, %160
+	
+	et __ di --
+	vi -- tes,
+	et di --
+	vi -- tes di -- mi -- sit in -- %165
+	a -- nes, et di --
+	vi -- tes di -- mi -- sit in --
+	[a] -- _ _ _
+	_ _ _ _
+	_ _ _ _ %170
+	_ _ _ _
+	nes, in -- a --
+	nes. %173 finis
 }
 
 % SopranoNotes = {

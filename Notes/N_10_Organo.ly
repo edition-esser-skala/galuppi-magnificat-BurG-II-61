@@ -180,7 +180,7 @@ EsurientesOrgano = {
 		\clef bass
 		\key f \major \time 2/2 \tempoEsurientes
 			\set Score.currentBarNumber = #82
-		r4 \mvTr f\pE-\soloE f f,
+		r4 \mvTr f\fE-\soloE f f,
 		r f' f a
 		g b c c,
 		f f b b %85
@@ -210,7 +210,7 @@ EsurientesOrgano = {
 		f g a b
 		c1 %110
 		f,2 r
-		r4 f f f
+		r4 f\pE f f
 		r f a a
 		b a g c,
 		f f f f %115
@@ -231,7 +231,7 @@ EsurientesOrgano = {
 		e e h h %130
 		c c d f
 		g g g, g
-		c c f f
+		c\fE c f f
 		g f e a
 		d, d h h %135
 		c r d r
@@ -239,12 +239,12 @@ EsurientesOrgano = {
 		d r c d
 		e f g g
 		g, g c r %140
-		r f f f
+		r f\pE f f
 		r f f f
 		r f f f
 		r f f f
 		r a a a %145
-		r b h h
+		r b b? b
 		r b b b
 		r a a a
 		r g e c
@@ -271,7 +271,7 @@ EsurientesOrgano = {
 		a r b b %170
 		c c d b
 		b b c2\fermata
-		f4 f f g
+		f4\fE f f g
 		r a a a
 		r b b b %175
 		r g g g
