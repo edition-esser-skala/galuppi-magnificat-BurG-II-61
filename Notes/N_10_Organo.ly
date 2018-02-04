@@ -796,14 +796,16 @@ SicutBassFigures = \figuremode {
 	r1 %367 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \dorian \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 3/4 \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+		\mvTr e4\p-\tutti-\markup { \remark "senza Org." } r r
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	
+}

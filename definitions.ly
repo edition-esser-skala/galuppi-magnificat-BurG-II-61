@@ -165,6 +165,7 @@ tempoMagnificatB = \tempoMarkup "Allegro"
 tempoEsurientes = \tempoMarkup "[Tempo deest]"
 tempoSuscepit = \tempoMarkup "Moderato"
 tempoSicut = \tempoMarkup "Andante"
+tempoGloria = \tempoMarkup "[Tempo deest]"
 
 
 % modify the Scheme function 'format-bass-figure'

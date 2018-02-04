@@ -298,10 +298,11 @@ SicutViolinoII = {
 	}
 }
 
-% ViolinoII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+	}
+}

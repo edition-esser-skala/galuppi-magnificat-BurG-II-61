@@ -299,11 +299,12 @@ SicutViola = {
 	}
 }
 
-% Viola = {
-% 	\relative c' {
-% % 		\clef alto
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+GloriaViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key e \minor \time 3/4 \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+	}
+}

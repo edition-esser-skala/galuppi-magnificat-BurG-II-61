@@ -186,48 +186,116 @@
 % 			\midi { \tempo 2. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4 SICUT LOCUTUS"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SicutViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SicutViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\SicutViola
+% 					}
+% 				>>
+% 				\new GrandStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \SicutSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SicutSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SicutOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SicutBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4 SICUT LOCUTUS"
+			movement = "4 GLORIA PATRI"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Corno I, II"
+						\partcombine \GloriaCornoI \GloriaCornoII
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SicutViolinoI
+							\GloriaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SicutViolinoII
+							\GloriaViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\SicutViola
+						\GloriaViola
 					}
 				>>
-				\new GrandStaff <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SicutSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SicutSopranoLyrics
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SicutOrgano
+						\GloriaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SicutBassFigures
+					\GloriaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

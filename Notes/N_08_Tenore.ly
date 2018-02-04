@@ -217,14 +217,16 @@ SuscepitTenoreLyrics = \lyricmode {
 	ae.] %262 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	
+}

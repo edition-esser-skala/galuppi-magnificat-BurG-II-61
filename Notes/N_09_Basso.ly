@@ -228,14 +228,16 @@ SuscepitBassoLyrics = \lyricmode {
 	ae. %262 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \dorian \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	
+}

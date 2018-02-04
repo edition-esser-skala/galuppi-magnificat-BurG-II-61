@@ -573,14 +573,16 @@ SicutSopranoLyrics = \lyricmode {
 	la. %360 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	
+}

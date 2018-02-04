@@ -287,14 +287,16 @@ SuscepitAltoLyrics = \lyricmode {
 	ae.] %262 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
