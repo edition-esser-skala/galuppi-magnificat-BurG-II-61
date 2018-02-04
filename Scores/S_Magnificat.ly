@@ -97,52 +97,18 @@
 		\paper { systems-per-page = #3 }
 		\score {
 			<<
-% 				\new StaffGroup <<
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Corno I, II"
-% 						\partcombine \EsurientesCornoI \EsurientesCornoII
-% 					>>
-% 				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino solo"
-							\EsurientesViolinoI
-						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\EsurientesViolinoII
-% 						}
-					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\EsurientesViola
-% 					}
+				\new GrandStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Violino solo"
+						\EsurientesViolinoI
+					}
 				>>
-				\new ChoirStaff <<
+				\new GrandStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \EsurientesSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \EsurientesSopranoLyrics
-					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \EsurientesAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \EsurientesAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \EsurientesTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \EsurientesTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \EsurientesBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \EsurientesBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
