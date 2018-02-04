@@ -304,12 +304,116 @@ SuscepitSopranoNotes = {
 		\key c \major \time 3/4 \autoBeamOff \tempoSuscepit
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #186
-		
+		R2.*14 %199
+		\mvTr g'2. %200
+		a2 h4
+		c \appoggiatura h a2
+		h4 d2~
+		d8 c c2~
+		c8([ d)] \appoggiatura c4 h2 %205
+		c4 r r
+		R2.*3
+		r4 g g %210
+		c c c
+		c c2
+		c8 h h4 g
+		b c2
+		a4 f g %215
+		as2.
+		g4 c2
+		c4 h2
+		b8 b a4 d
+		d cis2 %220
+		c4( h!2
+		a4) h c
+		h( \appoggiatura h4 a2)
+		h4 r r
+		R2.*9 %233
+		f2.
+		g2 a4 %235
+		b \appoggiatura a g2
+		a4 d2~
+		d8 c c2~
+		c8([ d)] h!2
+		c4 r r %240
+		R2.*2
+		r4 g g
+		d' d d
+		d d2 %245
+		cis4 a h
+		c c2
+		h4 h a
+		b b2
+		a4( d c %250
+		h!) c2
+		c4 h h
+		c d2
+		g,4 c2
+		h( c4~ %255
+		c8[ d] h2)
+		c4 h2\p
+		c4 d2
+		g,4 c2
+		h(\f c4~ %260
+		c8[ d] \appoggiatura c4 h2)
+		c2 r4
+		R2.*9 \bar "||" %271 finis
 	}
 }
 
 SuscepitSopranoLyrics = \lyricmode {
+	Sus -- %200
+	ce -- pit
+	Is -- ra --
+	el pu --
+	e -- rum __
+	su -- %205
+	um,
 	
+	re -- cor -- %210
+	da -- tus mi --
+	se -- ri --
+	cor -- di -- ae, mi --
+	se -- ri --
+	cor -- di -- ae %215
+	su --
+	ae, mi --
+	se -- ri --
+	cor -- di -- ae, mi --
+	se -- ri -- %220
+	cor --
+	di -- ae
+	su --
+	ae.
+	
+	Sus -- %234
+	ce -- pit %235
+	Is -- ra --
+	el pu --
+	e -- rum __
+	su --
+	um, %240
+	
+	re -- cor -- %243
+	da -- tus mi --
+	se -- ri -- %245
+	cor -- diae, mi --
+	se -- ri --
+	cor -- diae, mi --
+	se -- ri --
+	cor -- %250
+	diae
+	su -- ae, mi --
+	se -- ri --
+	cor -- diae
+	su -- %255
+	
+	ae, mi --
+	se -- ri --
+	cor -- diae
+	su -- %260
+	
+	ae. %262 finis
 }
 
 % SopranoNotes = {
