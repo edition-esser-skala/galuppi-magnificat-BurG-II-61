@@ -187,8 +187,8 @@ SuscepitViola = {
 
 SicutViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key g \major \time 2/2 \tempoSicut
 			\set Score.currentBarNumber = #263
 		h4\fE d g c
@@ -197,7 +197,7 @@ SicutViola = {
 		fis g g,2
 		fis'4\p r g r
 		c, h h2
-		r4 r8 a' g8. f16 e8. d16
+		r4 r8 a'\fE g8. f16 e8. d16
 		c4 c c,2 %270
 		r4 r8 h'' a8. g16 fis8. e16
 		d1:8~-\critnote

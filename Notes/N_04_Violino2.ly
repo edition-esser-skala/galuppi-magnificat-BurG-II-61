@@ -206,7 +206,7 @@ SicutViolinoII = {
 		fis4\f a r a,
 		h16([ d8.)] g16([ h8.)] a16([ fis8.)] a,16([ c8.)]
 		h16([ d8.)] g16([ h8.)] a16([ fis8.)] a,16([ c8.)]
-		h16([ d8.)] d,16([ c'8.)] \appoggiatura g4 fis2
+		h16([ d8.)] e,16([ c'8.)] \appoggiatura g4 fis2
 		h16([\p d8.)] g16([ h8.)] a16([ fis8.)] a,16([ c8.)] %280
 		h16([ d8.)] g16([ h8.)] a16([ fis8.)] a,16([ c8.)]
 		\tuplet 3/2 4 { h8[\f-! c-! d-!] e-![ fis-! g-!] a-![ g-! fis-!] e-![ d-! c-!]
@@ -228,7 +228,7 @@ SicutViolinoII = {
 		r a a a
 		a a a a
 		g h a cis %300
-		fis, fis gis gis
+		fis, fis a-\critnote gis
 		a2 a'8(-. a-. a-. a-.)
 		a(-. a-. a-. a-.) g(-. g-. g-. g-.)
 		f(-. f-. f-. f-.) cis(-. cis-. cis-. cis-.)
