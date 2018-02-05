@@ -642,10 +642,62 @@ GloriaSopranoNotes = {
 			R1*2
 		r2 r4 \mvTr h8\fE^\tuttiE g
 		d'4 d r c8 c
-		h8. h16 h8 d %430
-		e4 d
+		h8. h16 h8 d e4 d %430
 		c h h a
 		R1 \bar "||"
+		r2 g4 g
+		d' d8 d d4 d
+		e1 %435
+		d2. g,4
+		c c c h8([ a)]
+		h2( a)
+		g r
+		r r4 g'~ %440
+		g cis,2 fis4~
+		fis h,2 e4~
+		e d2 cis4
+		d2 r
+		r4 g,8[ a] h[ c d e] %445
+		fis4 fis,8[ g] a[ h c d]
+		e4 e,8[ fis] g[ a h c]
+		d4 c8[ h] a4 h8[ c]
+		h2 r
+		R1*3 %452
+		r2 g4 g
+		d' d8 d d4 c8([ h)]
+		c4 c c h8([ a)] %455
+		h4 h r2
+		R1
+		r2 g4 g
+		d' d8 d d4 cis8([ h)]
+		cis?2 d~ %460
+		d4 cis8[ h] cis2~
+		cis4 h8[( ais]) h2~
+		h4( ais8[ gis] ais2)
+		h r
+		R1 %465
+		r2 fis4 fis
+		h h8 h h4 h
+		c!1
+		h2 r
+		r4 d,8[ e] fis[ g a h] %470
+		c4 c,8[ d] e[ fis g a]
+		h2 r
+		R1
+		r2 a4 a
+		e' e8 e e4 d8([ c)] %475
+		d4 d d c8([ h)]
+		c4 c8 c c4 h8([ a)]
+		h4 g r e'~
+		e a,2 d4~
+		d g,2 c4~ %480
+		c h8[ a] h4 g8 g
+		e'4 e8 e e4 e
+		d d d d
+		c c8 c c4 h8([ a)]
+		h4 h h2 %485
+		c a
+		h1\fermata \bar "|." %487 FINIS
 	}
 }
 
@@ -701,6 +753,60 @@ GloriaSopranoLyrics = \lyricmode {
 	e -- rat in prin --
 	ci -- pi -- o et nunc, et %430
 	nunc et sem -- per.
+	
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- %435
+	rum, in
+	sae -- cu -- lo -- rum,
+	a --
+	men,
+	a -- %440
+	_ _
+	_ _
+	_ _
+	men,
+	a -- _ %445
+	_ _ _
+	_ _ _
+	_ _ _ _
+	men.
+	
+	Et in %453
+	sae -- cu -- la sae -- cu --
+	lo -- rum, sae -- cu -- %455
+	lo -- rum,
+	
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- _ %460
+	_ _
+	rum, a --
+	
+	men.
+	%465
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo --
+	rum,
+	a -- _ %470
+	_ _ _
+	men.
+	
+	Et in
+	sae -- cu -- la sae -- cu -- %475
+	lo -- rum, et in __
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	_ _
+	_ _ %480
+	_ men, et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a -- %485
+	men, a --
+	men. %487 FINIS
 }
 
 GloriaSopranoTuttiLyrics = \lyricmode {
