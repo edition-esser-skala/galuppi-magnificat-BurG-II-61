@@ -324,6 +324,55 @@ GloriaAltoNotes = {
 		g8. g16 g8 g g4 g %430
 		fis g g fis
 		R1 \bar "||"
+		R1*5 %437
+		r2 d4 d
+		g g8 g g4 g
+		h1 %440
+		a2. d,4
+		g g g fis8([ e)]
+		fis4( e8[ d] e2)
+		d4 r r2
+		r r4 c'~ %445
+		c fis,2 h4~
+		h e,2 a4~
+		a g2 fis4
+		g r r2
+		r4 d8[ e] fis[ g a h] %450
+		cis4 cis,8[ d] e[ fis g a]
+		h4 h,8[ cis] d[ e fis g]
+		a4 g8[ fis] g2
+		fis4 r r2
+		r c4 c %455
+		g' g8 g g4 f8[( e)]
+		f?4 f f e8([ d)]
+		e4 e4 r2
+		R1*3 %461
+		r2 h4 h
+		fis' fis8 fis fis4 fis
+		g1
+		fis2. h,4 %465
+		e e e d8([ cis)]
+		d4 h8[ cis] d[ e fis g]
+		a4 a,8[ h] c[ d e fis]
+		g4 r d d
+		g g8 g g4 g %470
+		g2 fis
+		g4 d r2
+		r e4 e
+		a a8 a a4 g8([ fis)]
+		g4 g e e %475
+		h' h8 h h2~
+		h4 e, a2
+		d,4 h8[ c] d[ e f g]
+		a4 a,8[ h] c[ d e f]
+		g4 g,8[ a] h[ c d e] %480
+		f4 f,8[ g] a[ h c d]
+		e4 r r a~
+		a d,2 g4~
+		g fis!8[ e] fis2
+		g4 g g2 %485
+		a fis
+		g1\fermata \bar "|." %487 FINIS
 	}
 }
 
@@ -354,4 +403,53 @@ GloriaAltoLyrics = \lyricmode {
 	e -- rat in prin --
 	ci -- pi -- o et nunc, et %430
 	nunc et sem -- per.
+	
+	Et in %438
+	sae -- cu -- la sae -- cu --
+	lo -- %440
+	rum, in
+	sae -- cu -- lo -- rum,
+	a --
+	men,
+	a -- %445
+	_ _
+	_ _
+	_ _
+	men,
+	a -- _ %450
+	_ _ _
+	_ _ _
+	_ _ _
+	men.
+	Et in %455
+	sae -- cu -- la sae -- cu --
+	lo -- rum, sae -- cu --
+	lo -- rum,
+	
+	Et in %462
+	sae -- cu -- la sae -- cu --
+	lo --
+	rum, in %465
+	sae -- cu -- lo -- rum,
+	a -- _ _
+	_ _ _
+	men. Et in
+	sae -- cu -- la sae -- cu -- %470
+	lo -- rum,
+	a -- men.
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, et in %475
+	sae -- cu -- la sae --
+	cu -- lo --
+	rum, a -- _
+	_ _ _
+	_ _ _ %480
+	_ _ _
+	men, a --
+	_ _
+	_ _
+	_ men, a -- %485
+	men, a --
+	men. %487 FINIS
 }
