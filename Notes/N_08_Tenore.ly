@@ -224,10 +224,44 @@ GloriaTenoreNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
-		
+		R2.*20 %387
+		r4 \mvTr h\fE^\tuttiE cis
+		fis, fis r
+		r h cis %390
+		fis,8. fis16 fis4^\critnote r
+		R2.*8 %399
+		r4 \mvTr d'\fE^\tuttiE a %400
+		h8. e16 d2
+		d4 r r
+		R2.*7 %409
+		r4 \mvTr dis\fE^\tutti cis %410
+		h h^\critnote r
+		r dis cis
+		h8. h16 h4 r
+		R2.*7 %420
+		r4 \mvTr fis'\fE^\tuttiE fis
+		\time 3/2 fis4. fis8 e4 c( h2)
+		\time 3/4 h4 r r
+		R2.*2 \bar "||" %425
 	}
 }
 
 GloriaTenoreLyrics = \lyricmode {
+	Glo -- ria %388
+	Pa -- tri,
+	Glo -- ria %400
+	Fi -- li -- o.
 	
+	Et Spi -- %400
+	ri -- tui San --
+	cto.
+	
+	Glo -- ria %410
+	Pa -- tri,
+	Glo -- ria
+	Fi -- li -- o.
+	
+	Et Spi -- %421
+	ri -- tu -- i San --
+	cto.
 }

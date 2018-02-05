@@ -296,9 +296,9 @@ GloriaAltoNotes = {
 			\set Score.currentBarNumber = #368
 		R2.*20 %387
 		r4 \mvTr g'\fE^\tuttiE g
-		fis32([ e dis8.)] dis2
+		fis32([ e dis8.)] dis4^\critnote r
 		r4 g g %390
-		fis32([^\critnote e dis8)] dis16 dis2
+		fis32([^\critnote e dis8)] dis16 dis4 r
 		R2.*7 %398
 		r4 \mvTr g\fE^\tuttiE c,
 		a'2. %400

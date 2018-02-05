@@ -594,9 +594,9 @@ GloriaSopranoNotes = {
 		e4. fis8 g4~
 		g8 c,16 h \appoggiatura h4 ais2
 		h4 \mvTr e\fE^\tutti e
-		dis32([ cis h8.)] h2
+		dis32([ cis h8.)] h4^\critnote r
 		r4 e e %390
-		dis32([^\critnote cis? h8)] h16 h2
+		dis32([^\critnote cis? h8)] h16 h4 r
 		\mvTr d4\pE^\solo d4.(\trill c16[ d)]
 		\appoggiatura { e8[ fis] } g4.( \appoggiatura fis16 e8) c c
 		c[ ais] \appoggiatura ais4 h4. h8
