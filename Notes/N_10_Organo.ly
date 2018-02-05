@@ -801,6 +801,7 @@ GloriaOrgano = {
 		\clef bass
 		\key e \minor \time 3/4 \tempoGloria
 			\override Staff.TimeSignature.style = #'single-digit
+			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
 		\mvTr e4\p-\tutti-\markup { \remark "senza Org." } r r
 		dis8.\f fis16 h,4 r
@@ -814,7 +815,7 @@ GloriaOrgano = {
 		dis8.\fE fis16 h,4 r
 		R2.
 		e8. g16 h,4 dis\p %380
-		e r r
+		e r r\fermata
 		\clef "treble_8" e'-.-\vlc e-. e-.
 		fis fis e
 		dis dis dis
@@ -855,70 +856,69 @@ GloriaOrgano = {
 		\clef bass \mvTr e'8.[\fE-\tutti e16 e8. e16 g,8. g16]
 		a8.[ a16 a'8. a16 e8. e16] %420
 		fis8.[ fis16 fis8. fis16 fis8. fis16]
-		h8.[ h16 h8. h16 c8. c16]
-		a8.[ a16 h8. h16 h,8. h16]
-		e4 e e
-		e e e %425
-		e r r \bar "||"
+		\time 3/2 h8.[ h16 h8. h16 c8. c16] a8.[ a16 h8. h16 h,8. h16]
+		\time 3/4 e4 e e
+		e e e
+		e r r \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
 			\mvTr g8\fE-\tuttiE g g g fis fis fis fis
 		e e fis fis g g fis fis
 		e e fis fis g g g g
-		fis fis fis fis e e fis fis %430
-		g-\critnote g g h, c4 h
+		fis fis fis fis e e fis fis
+		g-\critnote g g h, c4 h %430
 		a g d' d
 		R1 \bar "||"
-		R1*2 %435
-		r2 r4 c'~
+		R1*2
+		r2 r4 c'~ %435
 		c fis,2 h4~
 		h e,2 a4~
 		a g2 fis4
-		g2 r %440
-		r4 g8 a h cis d e
+		g2 r
+		r4 g8 a h cis d e %440
 		fis4 fis,8 g a h cis d
 		e4 e,8 fis g a h cis
 		d4 d, r2
-		R1*4 %448
+		R1*4 %447
 		r2 d4 d
-		g g8 g g4 g %450
-		h1
+		g g8 g g4 g
+		h1 %450
 		a2. d,4
 		g g g fis8 e
 		fis4 e8 d e2
-		d4 h8 c d e fis g %455
-		a4 a,8 h c d e fis
+		d4 h8 c d e fis g
+		a4 a,8 h c d e fis %455
 		g4 r r2
 		r g4 g
 		c c8 c c4 b8 a
-		b4 b b a8 g %460
-		a2 d,
+		b4 b b a8 g
+		a2 d, %460
 		a ais
 		h g'
 		fis r
-		r4 e8 fis g a h cis %465
-		d4 d,8 e fis g a h
+		r4 e8 fis g a h cis
+		d4 d,8 e fis g a h %465
 		cis4 cis,8 d e fis gis ais
 		h4 r r2
 		r d,4 d
-		g g8 g g4 g %470
-		h1
+		g g8 g g4 g
+		h1 %470
 		a2. d,4
 		g g g fis8 e
 		fis2 gis
-		a fis %475
-		e ais,
+		a fis
+		e ais, %475
 		r4 h8 cis? d e fis g
 		a4 a,8 h c! d e fis
 		g1~-\tasto
-		g~ %480
 		g~
+		g~ %480
 		g
 		r4 c,8 d e fis g a
 		h4 h,8 c d e fis g
-		a4 a,8 h c d e fis %485
-		g4 g e2
+		a4 a,8 h c d e fis
+		g4 g e2 %485
 		c d
-		g,1\fermata \bar "|." %488 FINIS
+		g,1\fermata \bar "|." %487 FINIS
 	}
 }
 

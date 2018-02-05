@@ -578,11 +578,121 @@ GloriaSopranoNotes = {
 		\clef treble
 		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
 			\override Staff.TimeSignature.style = #'single-digit
+			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
-		
+		R2.*8 %375
+		\mvTr h'2.~\fE^\solo
+		h~
+		h~
+		h~
+		h2 c8 a %380
+		g4.(\trill\fermata fis8) e4
+		h'( g'32[ fis e8.)] d32([ c h8.)]
+		a8.([\trill gis16)] a2
+		a4 fis'32([ e dis8.)] c!32([ h a8.)]
+		g8.\trill fis16 g4 e'~ %385
+		e4. fis8 g4~
+		g8 c,16 h \appoggiatura h4 ais2
+		h4 \mvTr e\fE^\tutti e
+		dis32([ cis h8.)] h2
+		r4 e e %390
+		dis32([^\critnote cis? h8)] h16 h2
+		\mvTr d4\pE^\solo d4.(\trill c16[ d)]
+		\appoggiatura { e8[ fis] } g4.( \appoggiatura fis16 e8) c c
+		c[ ais] \appoggiatura ais4 h4. h8
+		\appoggiatura dis8 e4. c8[ a g] %395
+		\appoggiatura g fis4 g g'~
+		\tuplet 6/4 4 { g16[ fis e d c d] e[ d c h a h] } c16[ \tuplet 3/2 16 { h32 a g } a8]\trill
+		g4 \mvTr d'\fE^\tuttiE g,
+		e'2.~
+		e4 d c %400
+		h8.([ c16] a2\trill)
+		h4 r \mvTr d~\pE^\solo
+		d8[( h32 c d e] f4.) e16 d
+		d8([ h)] c4 c~
+		c8([ a32 h c d] e4.) d16 c %405
+		c8.\trill h16 h2
+		h4 g'4.(\trill fis16[ g)]
+		a,4( fis'4.\trill) e16([ fis)]
+		g,4 e'4.\trill dis16[ e]
+		<< \context Voice = "Soprano" {
+			\voiceTwo dis32[( cis h8.)] h4 r %410
+			r h8([ cis32 dis e fis] g8) fis16([ e)]
+			dis?32([ cis? h8.)] h4 r
+			r h \oneVoice g'8.([\trill fis32 g)]
+			a,4( fis'4.)\trill e16([ fis)]
+		} \\ \context Voice = "SopranoTutti" {
+			\voiceOne r4 \mvTr h,^\fE^\tutti e %410
+			dis32([ cis? h8.)] h4 r
+			r4 h e
+			dis32([ cis h8)] h16 h4 s
+			s2.
+		} >>
+		g4 e'4.\trill dis16[ e] %415
+		h4~ \tuplet 3/2 4 { h8[ cis dis?] e[ fis g]
+		a[ g fis] } \appoggiatura e4 fis2\trill
+		e4 r r
+		r \mvTr g,\fE^\tuttiE e
+		c'2.~ %420
+		c4 h a
+		\time 3/2 dis2( e dis)
+		\time 3/4 e4 r r
+		R2.*2 \bar "||" %425
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- %376
 	
+	ri -- a %380
+	Pa -- tri,
+	Glo -- ria __
+	Pa -- tri,
+	Pa -- tri, __ et __
+	Fi -- li -- o, et __ %385
+	Spi -- ri --
+	tu -- i San --
+	cto. Glo -- ria
+	Pa -- tri,
+	Glo -- ria %390
+	Fi -- li -- o
+	et Spi --
+	ri -- tu -- i
+	San -- _ _
+	_ _ %395
+	_ _ _
+	_ _
+	cto, et Spi --
+	ri --
+	tu -- i %400
+	San --
+	cto. Glo --
+	ri -- a
+	Pa -- tri, Pa --
+	tri, et %405
+	Fi -- li -- o,
+	et Spi --
+	ri -- tui
+	San -- _ _
+	_ cto. %410
+	Glo -- ria
+	Pa -- tri,
+	et Spi --
+	ri -- tui
+	San -- _ _ %415
+	_ _
+	_ _
+	cto,
+	et Spi --
+	ri -- %420
+	tu -- i
+	San --
+	cto.
+}
+
+GloriaSopranoTuttiLyrics = \lyricmode {
+	Glo -- ria %410
+	Pa -- tri,
+	Glo -- ria
+	Fi -- li -- o.
 }
