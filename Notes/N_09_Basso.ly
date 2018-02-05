@@ -235,10 +235,48 @@ GloriaBassoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
-		
+		R2.*20 %387
+		r4 \mvDll \mvTrr e'\fE^\tuttiE ais,
+		h h, r
+		r e' ais, %390
+		h8. h,16 h4^\critnote r
+		R2.*7 %398
+		r4 \mvTr c'\fE^\tuttiE a
+		fis2.
+		g8. c,16 d2
+		g4 r r
+		R2.*7 %409
+		r4 \mvTr h\fE^\tutti ais %410
+		h h,^\critnote r
+		r h' ais
+		h8. h,16 h4 r
+		R2.*6 %419
+		r4 \mvTr a'\fE^\tuttiE e %420
+		fis2.
+		\time 3/2 h2 c4 a( h2)
+		\time 3/4 e,4 r r
+		R2.*2 \bar "||" %425
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Glo -- ria %388
+	Pa -- tri,
+	Glo -- ria %400
+	Fi -- li -- o.
 	
+	Et Spi -- %399
+	ri -- %400
+	tu -- i San --
+	cto.
+	
+	Glo -- ria %410
+	Pa -- tri,
+	Glo -- ria
+	Fi -- li -- o.
+	
+	Et Spi -- %420
+	ri --
+	tu -- i San --
+	cto.
 }

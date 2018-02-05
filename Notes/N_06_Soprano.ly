@@ -616,7 +616,7 @@ GloriaSopranoNotes = {
 		a,4( fis'4.\trill) e16([ fis)]
 		g,4 e'4.\trill dis16[ e]
 		<< \context Voice = "Soprano" {
-			\voiceTwo dis32[( cis h8.)] h4 r %410
+			\voiceTwo \slurUp dis32[( cis h8.)] h4 r %410
 			r h8([ cis32 dis e fis] g8) fis16([ e)]
 			dis?32([ cis? h8.)] h4 r
 			r h \oneVoice g'8.([\trill fis32 g)]
