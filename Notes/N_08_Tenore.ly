@@ -243,6 +243,13 @@ GloriaTenoreNotes = {
 		\time 3/2 fis4. fis8 e4 c( h2)
 		\time 3/4 h4 r r
 		R2.*2 \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			R1*2
+		r2 r4 \mvTr d8\fE^\tuttiE d
+		d4 d r d8 d
+		d8. d16 d8 d c4 d %430
+		d d d d
+		R1 \bar "||"
 	}
 }
 
@@ -264,4 +271,9 @@ GloriaTenoreLyrics = \lyricmode {
 	Et Spi -- %421
 	ri -- tu -- i San --
 	cto.
+	
+	Si -- cut %428
+	e -- rat in prin --
+	ci -- pi -- o et nunc, et %430
+	nunc et sem -- per.
 }

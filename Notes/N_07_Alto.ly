@@ -317,6 +317,13 @@ GloriaAltoNotes = {
 		\time 3/2 a2( g fis)
 		\time 3/4 g4 r r
 		R2.*2 \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			R1*2
+		r2 r4 \mvTr g8\fE^\tuttiE g
+		a4 a r a8 a
+		g8. g16 g8 g g4 g %430
+		fis g g fis
+		R1 \bar "||"
 	}
 }
 
@@ -342,4 +349,9 @@ GloriaAltoLyrics = \lyricmode {
 	San --
 	
 	cto.
+	
+	Si -- cut %428
+	e -- rat in prin --
+	ci -- pi -- o et nunc, et %430
+	nunc et sem -- per.
 }

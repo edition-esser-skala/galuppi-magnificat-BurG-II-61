@@ -638,6 +638,14 @@ GloriaSopranoNotes = {
 		\time 3/2 dis2( e dis)
 		\time 3/4 e4 r r
 		R2.*2 \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			R1*2
+		r2 r4 \mvTr h8\fE^\tuttiE g
+		d'4 d r c8 c
+		h8. h16 h8 d %430
+		e4 d
+		c h h a
+		R1 \bar "||"
 	}
 }
 
@@ -688,6 +696,11 @@ GloriaSopranoLyrics = \lyricmode {
 	tu -- i
 	San --
 	cto.
+	
+	Si -- cut %428
+	e -- rat in prin --
+	ci -- pi -- o et nunc, et %430
+	nunc et sem -- per.
 }
 
 GloriaSopranoTuttiLyrics = \lyricmode {
