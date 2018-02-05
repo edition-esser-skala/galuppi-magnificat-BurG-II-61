@@ -106,6 +106,8 @@ tasto = \markup { \remark "tasto solo" }
 tastoE = \markup { \remarkE "tasto solo" }
 org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
+vlc = \markup { \remark "Vlc. soli" }
+vlcE = \markup { \remarkE "Vlc. soli" }
 bassi = \markup { \remark Bassi }
 bassiE = \markup { \remarkE Bassi }
 tenuto = \markup { \remark ten. }
@@ -166,6 +168,7 @@ tempoEsurientes = \tempoMarkup "[Tempo deest]"
 tempoSuscepit = \tempoMarkup "Moderato"
 tempoSicut = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "[Tempo deest]"
+tempoSicutErat = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'

@@ -803,6 +803,122 @@ GloriaOrgano = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #368
 		\mvTr e4\p-\tutti-\markup { \remark "senza Org." } r r
+		dis8.\f fis16 h,4 r
+		R2. %370
+		e8. g16 h,4 r
+		h'2.~\p
+		h
+		e,4-. ais,-. ais-.
+		h2. %375
+		R2.*2
+		dis8.\fE fis16 h,4 r
+		R2.
+		e8. g16 h,4 dis\p %380
+		e r r
+		\clef "treble_8" e'-.-\vlc e-. e-.
+		fis fis e
+		dis dis dis
+		e e g %385
+		c, c c
+		c2.
+		\clef bass r4 \mvTr e,8.\f-\tuttiE-\markup { \remark "con Org." } e16 ais,8. ais16
+		h4 h r
+		r e8. e16 ais,8. ais16 %390
+		h4 h r
+		\clef "treble_8" \mvTr g'8\pE-\vlc r g' r fis r
+		e r e r e r
+		d r d r d r
+		c r c r c r %395
+		c4 h c
+		d d,2
+		\clef bass \mvTr g8.[\f-\tutti-\markup { \remark "con Org." } g16 g8. g16 g8. g16]
+		c,8.[ c16 c8. c16 a'8. a16]
+		fis8.[ fis16 fis8. fis16 d8. d16] %400
+		g8. c,16 d8.[ d16 d,8. d16]
+		g4 g' r
+		\clef "treble_8" \mvTr gis8\pE-\vlc r gis r gis r
+		a4 a r
+		fis fis fis %405
+		g h d
+		g, e cis
+		fis dis h
+		e c ais
+		h \clef bass \mvTr h8.[\fE-\tutti h16 ais8. ais16] %410
+		h4 h \clef "treble_8" \mvTr ais'\pE-\vlcE
+		h \clef bass \mvTr h,8.[\fE-\tutti h16 ais8. ais16]
+		h4 h \clef "treble_8" \mvTr e\pE-\vlc
+		fis dis h
+		e c' a %415
+		h a g
+		c h h,
+		e e, r
+		\clef bass \mvTr e'8.[\fE-\tutti e16 e8. e16 g,8. g16]
+		a8.[ a16 a'8. a16 e8. e16] %420
+		fis8.[ fis16 fis8. fis16 fis8. fis16]
+		h8.[ h16 h8. h16 c8. c16]
+		a8.[ a16 h8. h16 h,8. h16]
+		e4 e e
+		e e e %425
+		e r r \bar "||"
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\mvTr g8\fE-\tuttiE g g g fis fis fis fis
+		e e fis fis g g fis fis
+		e e fis fis g g g g
+		fis fis fis fis e e fis fis %430
+		g-\critnote g g h, c4 h
+		a g d' d
+		R1 \bar "||"
+		R1*2 %435
+		r2 r4 c'~
+		c fis,2 h4~
+		h e,2 a4~
+		a g2 fis4
+		g2 r %440
+		r4 g8 a h cis d e
+		fis4 fis,8 g a h cis d
+		e4 e,8 fis g a h cis
+		d4 d, r2
+		R1*4 %448
+		r2 d4 d
+		g g8 g g4 g %450
+		h1
+		a2. d,4
+		g g g fis8 e
+		fis4 e8 d e2
+		d4 h8 c d e fis g %455
+		a4 a,8 h c d e fis
+		g4 r r2
+		r g4 g
+		c c8 c c4 b8 a
+		b4 b b a8 g %460
+		a2 d,
+		a ais
+		h g'
+		fis r
+		r4 e8 fis g a h cis %465
+		d4 d,8 e fis g a h
+		cis4 cis,8 d e fis gis ais
+		h4 r r2
+		r d,4 d
+		g g8 g g4 g %470
+		h1
+		a2. d,4
+		g g g fis8 e
+		fis2 gis
+		a fis %475
+		e ais,
+		r4 h8 cis? d e fis g
+		a4 a,8 h c! d e fis
+		g1~-\tasto
+		g~ %480
+		g~
+		g
+		r4 c,8 d e fis g a
+		h4 h,8 c d e fis g
+		a4 a,8 h c d e fis %485
+		g4 g e2
+		c d
+		g,1\fermata \bar "|." %488 FINIS
 	}
 }
 
