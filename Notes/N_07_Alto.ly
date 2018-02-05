@@ -292,11 +292,54 @@ GloriaAltoNotes = {
 		\clef treble
 		\key e \minor \time 3/4 \autoBeamOff \tempoGloria
 			\override Staff.TimeSignature.style = #'single-digit
+			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
-		
+		R2.*20 %387
+		r4 \mvTr g'\fE^\tuttiE g
+		fis32([ e dis8.)] dis2
+		r4 g g %390
+		fis32([^\critnote e dis8)] dis16 dis2
+		R2.*7 %398
+		r4 \mvTr g\fE^\tuttiE c,
+		a'2. %400
+		g8. a16 \appoggiatura g4 fis2\trill
+		g4 r r
+		R2.*7 %409
+		r4 \mvTr fis\fE^\tutti g %410
+		fis32([ e dis8.)] dis4 r
+		r fis g
+		fis32([^\critnote e dis8)] dis16 dis4 r
+		R2.*4 %417
+		r4 \mvTr g\fE^\tuttiE e
+		h'2.~
+		h4 a gis %420
+		a2.~
+		\time 3/2 a2( g fis)
+		\time 3/4 g4 r r
+		R2.*2 \bar "||" %425
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	Glo -- ria %388
+	Pa -- tri,
+	Glo -- ria %400
+	Fi -- li -- o.
 	
+	Et Spi -- %399
+	ri -- %400
+	tu -- i San --
+	cto.
+	
+	Glo -- ria %410
+	Pa -- tri,
+	Glo -- ria
+	Fi -- li -- o.
+	
+	Et Spi -- %418
+	ri --
+	tu -- i %420
+	San --
+	
+	cto.
 }

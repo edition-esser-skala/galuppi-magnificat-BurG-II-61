@@ -581,7 +581,7 @@ GloriaSopranoNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
 		R2.*8 %375
-		\mvTr h'2.~\fE^\solo
+		\mvTr h'2.~\pE^\solo
 		h~
 		h~
 		h~
@@ -625,7 +625,7 @@ GloriaSopranoNotes = {
 			\voiceOne r4 \mvTr h,^\fE^\tutti e %410
 			dis32([ cis? h8.)] h4 r
 			r4 h e
-			dis32([ cis h8)] h16 h4 s
+			dis32([_\critnote cis h8)] h16 h4 s
 			s2.
 		} >>
 		g4 e'4.\trill dis16[ e] %415
@@ -655,7 +655,7 @@ GloriaSopranoLyrics = \lyricmode {
 	cto. Glo -- ria
 	Pa -- tri,
 	Glo -- ria %390
-	Fi -- li -- o
+	Fi -- li -- o,
 	et Spi --
 	ri -- tu -- i
 	San -- _ _

@@ -305,6 +305,7 @@ GloriaViola = {
 		\clef treble
 		\key e \minor \time 3/4 \tempoGloria
 			\override Staff.TimeSignature.style = #'single-digit
+			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
 	}
 }
