@@ -307,5 +307,113 @@ GloriaViola = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
+		R2.
+		dis8.\fE fis16 h,4 r
+		R2. %370
+		e8. g16 h,4 r
+		h'2.~\p
+		h
+		e,4 ais, ais
+		h2. %375
+		R2.*2
+		dis8.\fE fis16 h,4 r
+		R2.
+		e8. g16 h,4 dis\p %380
+		e r r\fermata
+		e e e
+		fis fis e
+		dis dis dis
+		e e g %385
+		c, c c
+		c2.
+		h4 g'8.[\f g16 g8. g16]
+		fis4 dis r
+		r g8.[ g16 g8. g16] %390
+		fis4 dis r
+		g,8\p r g' r fis r
+		e r e r e r
+		d r d r d r
+		c r c r c r %395
+		c4 h c
+		d d,2
+		R2.*2
+		r4 d'8.[\fE d16 a8. a16] %400
+		h8.[ e16] d8.[ d16 d8. d16]
+		d4 d r
+		gis,8\p r gis r gis r
+		a4 a r
+		fis8 r fis r fis r %405
+		g r h r d r
+		g r e r cis r
+		fis r dis r h r
+		e r c r ais r
+		h r h8.[\fE h16 cis8. cis16] %410
+		h4 h\p ais
+		h h8.[\fE h16 cis8. cis16]
+		h4 r e\pE
+		fis-! dis-! h-!
+		e c a %415
+		h a g
+		c h h
+		e, h' r
+		R2.*2 %420
+		r4 fis'8.[\fE fis16 fis8. fis16]
+		\time 3/2 fis8.[ fis16 fis8. fis16 e8. e16] c8.[ c16 h8. h16 h8. h16]
+		h4 e-!\p e-!
+		e-! e-! e-! \noBreak
+		e r r \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			\mvTr g8\fE-\critnote g g g fis fis fis fis \noBreak
+		e e fis fis g g fis fis
+		e e fis fis g g g g
+		fis fis fis fis e e fis fis
+		g-\critnote g g h, c4 h %430
+		a g d' d \noBreak
+		R1 \bar "||"
+		R1*10 %442
+		r2 a4 a
+		d d8 d d4 d
+		e1 %445
+		d2. g,4
+		c c c h8 a
+		h4 a8 g a2
+		g4 r r2
+		r r4 g'~ %450
+		g cis,2 fis4~
+		fis h,2 e4~
+		e d2 cis4
+		d r r2
+		R1 %455
+		r2 g,4 g
+		d' d8 d d4 c8 h
+		c4 c r2
+		r g'~
+		g fis! %460
+		e2. d8 cis
+		d2. cis8 h
+		cis1
+		r2 r4 e~
+		e a,2 d4~ %465
+		d cis8 h cis2
+		h4 r r2
+		R1*4 %471
+		r2 g4 g
+		d' d8 d d4 c8 h
+		c4 a dis2
+		e r %475
+		R1
+		r2 d4 d
+		g g8 g g4 f8 e
+		f4 f f e8 d
+		e4 e8 e e4 d8 c %480
+		d4 d d c8 h
+		c4 e,8 fis g a h c
+		d4 d,8 e fis g a h
+		c4 c,8 d e fis g a
+		g4 d' e2 %485
+		e d
+		d1\fermata \bar "|." %487 FINIS
 	}
 }
