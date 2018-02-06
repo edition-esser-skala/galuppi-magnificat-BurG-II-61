@@ -263,6 +263,57 @@ GloriaBassoNotes = {
 		g8. g16 g8 h c4 h %430
 		a g d' d,
 		R1 \bar "||"
+		R1*2
+		r2 r4 c'~ %435
+		c fis,2 h4~
+		h e,2 a4~
+		a g2 fis4
+		g2 r
+		r4 g8[ a] h[ cis d e] %440
+		fis4 fis,8[ g] a[ h cis d]
+		e4 e,8[ fis] g[ a h cis]
+		d4 d, r2
+		R1*4 %447
+		r2 d4 d
+		g g8 g g4 g
+		h1 %450
+		a2. d,4
+		g g g fis8([ e)]
+		fis4( e8[ d] e2)
+		d4 h8[ c] d[ e fis g]
+		a4 a,8[ h] c[ d e fis] %455
+		g4 r r2
+		r g4 g
+		c c8 c c4 b8([ a)]
+		b4 b b a8([ g)]
+		a2 d %460
+		a( ais
+		h g)
+		fis r
+		r4 e8[ fis] g[ a h cis]
+		d4 d,8[ e] fis[ g a h] %465
+		cis4 cis,8[ d] e[ fis gis ais]
+		h4 r r2
+		r d,4 d
+		g g8 g g4 g
+		h1 %470
+		a2. d,4
+		g g g fis8([ e)]
+		fis2 gis
+		a fis
+		e ais, %475
+		r4 h8[ cis?] d[ e fis g]
+		a4 a,8[ h] c![ d e fis]
+		g1~
+		g~
+		g %480
+		g
+		r4 c,8[ d] e[ fis g a]
+		h4 h,8[ c] d[ e fis g]
+		a4 a,8[ h] c[ d e fis]
+		g4 g e2 %485
+		c d
+		g1\fermata \bar "|." %487 FINIS
 	}
 }
 
@@ -291,4 +342,54 @@ GloriaBassoLyrics = \lyricmode {
 	e -- rat in prin --
 	ci -- pi -- o et nunc, et %430
 	nunc et sem -- per.
+	
+	A -- %435
+	_ _
+	_ _
+	_ _
+	men,
+	a -- _ %440
+	_ _ _
+	_ _ _
+	_ men.
+	
+	Et in %448
+	sae -- cu -- la sae -- cu --
+	lo -- %450
+	rum, in
+	sae -- cu -- lo -- rum,
+	a --
+	men, a -- _
+	_ _ _ %455
+	men.
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, sae -- cu --
+	lo -- rum, %460
+	a --
+	
+	men,
+	a -- _
+	_ _ _ %465
+	_ _ _
+	men.
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- %470
+	rum, in
+	sae -- cu -- lo -- rum,
+	a -- _
+	_ _
+	_ [men, %475
+	a] -- _
+	_ _ _
+	_
+	
+	men, %481
+	a -- _
+	_ _ _
+	_ _ _
+	_ men, a -- %485
+	men, a --
+	men. %487 FINIS
 }

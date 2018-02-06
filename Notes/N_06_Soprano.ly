@@ -685,7 +685,7 @@ GloriaSopranoNotes = {
 		h2 r
 		R1
 		r2 a4 a
-		e' e8 e e4 d8([ c)] %475
+		e' e8 e e4 d8([ cis?)] %475
 		d4 d d c8([ h)]
 		c4 c8 c c4 h8([ a)]
 		h4 g r e'~
