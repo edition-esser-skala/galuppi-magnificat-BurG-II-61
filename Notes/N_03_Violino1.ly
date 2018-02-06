@@ -426,7 +426,7 @@ GloriaViolinoI = {
 		r4 e\fE e
 		dis32( cis? h8.) h,4 r8 a'32( g fis e)
 		e4 e' e %390
-		dis32( cis? h8.) h,4 r
+		dis32( cis? h8.) h,4-\critnote r
 		d'8\p r d r d r
 		d r d r c
 		r c r h r h r

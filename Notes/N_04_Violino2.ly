@@ -305,5 +305,126 @@ GloriaViolinoII = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
+		e8(\p g) \appoggiatura a16 g8([ fis)] \appoggiatura g16 fis8( e)
+		dis8.\f fis16 h,4 r
+		fis'8(\p a) \appoggiatura h16 a8([ g)] \appoggiatura a16 g8( fis) %370
+		e8.\f g16 h,4 r
+		g''8\p e4 e8~ e8.(\trill dis32 e)
+		fis8 dis4 dis8~ dis8.(\trill cis32 dis)
+		e8 fis \appoggiatura fis4 e2\trill-\critnote
+		dis2. %375
+		R2.
+		e,8(\pE g) \appoggiatura a16 g8([ fis)] \appoggiatura g16 fis8( e)
+		dis8.\fE fis16 h,4 r
+		dis8(\p fis) \appoggiatura g16 fis8([ e)] \appoggiatura fis16 e8( dis)
+		e8.\fE g16 h,4 dis\p %380
+		e r r\fermata
+		h'8 r h r h r
+		a r a r a r
+		a r a r a r
+		g r g r h r %385
+		h r h r h r
+		ais2.
+		h4 e\fE e
+		dis32( cis? h8.) h,4 r8 a'32( g fis e)
+		e4 e' e %390
+		dis32( cis? h8.) h,4-\critnote r
+		h'8\p r h r a r
+		g r g r g r
+		fis r fis r fis r
+		e r e r e r %395
+		d4 d' e
+		h r r
+		r4 d8.[\f d16 g,8. g16]
+		e'8.[ e16 e8. e16 e8. e16]
+		e8.[ e16 d8. d16 c8. c16] %400
+		h8.[ c16] a8.[ a16 a8. a16]
+		h4 g r
+		h8\p r h r h r
+		h4 a r
+		a8 r a r a r %405
+		a4 g r
+		r r h-.
+		a-. a-. a-.
+		g8 r g r g r
+		fis r dis'8.[\f dis16 e8. e16] %410
+		dis32( cis? h8.) h4 r
+		r dis8.[\f dis16 e8. e16]
+		dis32( cis h8.) h4 r
+		a8\pE r a r a r
+		g r g r e' r %415
+		dis4 r e~
+		e dis2\trill
+		e4 r r
+		r g,8.[\fE g16 e8. e16]
+		c'8.[ c16 c8. c16 c8. c16] %420
+		c8.[ c16 h8. h16 a8. a16]
+		\time 3/2 dis8.[ dis16 dis8. dis16 e8. e16] e8.[ e16 dis8. dis16 dis8. dis16]
+		e8 g,4\p g g8
+		r a4 a a8 \noBreak
+		g4 r r \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			g'16\fE g, g g g a h c d d, d d d e fis d \noBreak
+		g a h g a h c a h d, d d d e fis d
+		g a h g a h c a g' g, g g g a h c
+		d d, d d d e fis d g a h g a h c a
+		h g h d g8 d e g d g %430
+		c,4 h h a16 a h cis \noBreak
+		d8 d,16 d d8 d d4 r \bar "||"
+		r2 g4 g \noBreak
+		d' d8 d d4 d
+		e1 %435
+		d2. g,4
+		c c c h8 a
+		h2 a\trill
+		g r
+		r d'4 g~ %440
+		g-\critnote cis,2 fis4~
+		fis h,2 e4~
+		e d2 cis4
+		d2 r
+		r4 g,8 a h c d e %445
+		fis4 fis,8 g a h c d
+		e4 e,8 fis g a h c
+		d4 c8 h a4 h8 c
+		h2 r
+		R1*3 %452
+		r2 g4 g
+		d' d8 d d4 c8 h
+		c4 c c h8 a %455
+		h4 h r2
+		R1
+		r2 g4 g
+		d' d8 d d4 cis8 h
+		cis?2 d~ %460
+		d4 cis8 h cis2~
+		cis4 h8 ais h2~
+		h4 ais8 gis ais2
+		h r
+		R1 %465
+		r2 fis4 fis
+		h h8 h h4 h
+		c!1
+		h2 r
+		r4 d,8 e fis g a h %470
+		c4 c,8 d e fis g a
+		h2 r
+		R1
+		r2 a4 a
+		e' e8 e e4 d8 cis? %475
+		d4 d d c8 h
+		c4 c8 c c4 h8 a
+		h4 g r e'~
+		e a,2 d4~
+		d g,2 c4~ %480
+		c h8 a h4 g8 g
+		e'4 e8 e e4 e
+		d d d d
+		c c8 c c4 h8 a
+		h4 h h2 %485
+		c a
+		h1\fermata \bar "|." %487 FINIS
 	}
 }
