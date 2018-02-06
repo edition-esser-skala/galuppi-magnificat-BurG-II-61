@@ -250,6 +250,49 @@ GloriaTenoreNotes = {
 		d8. d16 d8 d c4 d %430
 		d d d d
 		R1 \bar "||"
+		R1*10 %442
+		r2 a4 a
+		d d8 d d4 d
+		e1 %445
+		d2. g,4
+		c c c h8([ a)]
+		h4( a8[ g] a2)
+		g4 r r2
+		r r4 g'~ %450
+		g cis,2 fis4~
+		fis h,2 e4~
+		e d2 cis4
+		d r r2
+		R1 %455
+		r2 g,4 g
+		d' d8 d d4 c8[( h)]
+		c4 c r2
+		r g'~
+		g fis! %460
+		e2.( d8[ cis]
+		d2. cis8[ h)]
+		cis1
+		r2 r4 e~
+		e a,2 d4~ %465
+		d cis8[ h] cis2
+		h4 r r2
+		R1*4 %471
+		r2 g4 g
+		d' d8 d d4 c8([ h)]
+		c4 a dis2
+		e r %475
+		R1
+		r2 d4 d
+		g g8 g g4 f8([ e)]
+		f4 f f e8([ d)]
+		e4 e8 e e4 d8([ c)] %480
+		d4 d d( c8[ h)]
+		c4 e,8[ fis] g[ a h c]
+		d4 d,8[ e] fis[ g a h]
+		c4 c,8[ d] e[ fis g a]
+		g4 d' e2 %485
+		e d
+		d1\fermata \bar "|." %487 FINIS
 	}
 }
 
@@ -276,4 +319,47 @@ GloriaTenoreLyrics = \lyricmode {
 	e -- rat in prin --
 	ci -- pi -- o et nunc, et %430
 	nunc et sem -- per.
+	
+	Et in %443
+	sae -- cu -- la sae -- cu --
+	lo -- %445
+	rum, in
+	sae -- cu -- lo -- rum,
+	a --
+	men,
+	a -- %450
+	_ _
+	_ _
+	_ _
+	men.
+	%455
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	men, %460
+	a --
+	
+	men,
+	a --
+	_ _ %465
+	_ _
+	men.
+	
+	[Et in %472
+	sae -- cu -- la sae -- cu --
+	lo -- rum, a --
+	men.] %475
+	
+	Et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, et in
+	sae -- cu -- la sae -- cu -- %480
+	lo -- rum, a --
+	men, a -- _
+	_ _ _
+	_ _ _
+	_ men, a -- %485
+	men, a --
+	men. %487 FINIS
 }
