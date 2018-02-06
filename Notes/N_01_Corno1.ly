@@ -80,12 +80,12 @@ GloriaCornoI = {
 		h8. c16 a2
 		g4 r r
 		R2.*8 %410
-		h4\fE h, r
+		h4\fE \pao h, r
 		R2.
-		h'4 h, r
+		h'4 \pao h, r
 		R2.*5 %418
-		r4 h'2~
-		h4 a h %420
+		r4 h'2~\fE
+		h4 a c-\critnote %420
 		a2 a4
 		\time 3/2 h2 c a-\critnote
 		g4 r r
@@ -102,16 +102,16 @@ GloriaCornoI = {
 		a8 a a a a4 r \bar "||"
 		R1*7 %439
 		h1 %440
-		a
+		\pao a
 		h2 g
 		a r
 		R1*4 %447
 		r2 a4 a
 		h h8 h h4 h
 		h1 %450
-		a
+		\pao a
 		h4 h h a8 g
-		a2 g
+		\pa a2 g \pd
 		a4 r r2
 		R1*13 %467
 		r2 a4 a
