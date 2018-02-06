@@ -295,7 +295,7 @@
 					\GloriaBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 140 }
 		}
 	}

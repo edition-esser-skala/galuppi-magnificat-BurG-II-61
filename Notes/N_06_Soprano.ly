@@ -639,13 +639,15 @@ GloriaSopranoNotes = {
 		\time 3/4 e4 r r
 		R2.*2 \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
 			R1*2
 		r2 r4 \mvTr h8\fE^\tuttiE g
 		d'4 d r c8 c
 		h8. h16 h8 d e4 d %430
-		c h h a
+		c h h a \noBreak
 		R1 \bar "||"
-		r2 g4 g
+		r2 g4 g \noBreak
 		d' d8 d d4 d
 		e1 %435
 		d2. g,4

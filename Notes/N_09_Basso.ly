@@ -257,11 +257,13 @@ GloriaBassoNotes = {
 		\time 3/4 e,4 r r
 		R2.*2 \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
 			R1*2
 		r2 r4 \mvTr g8\fE^\tuttiE g
 		fis4 fis r fis8 fis
 		g8. g16 g8 h c4 h %430
-		a g d' d,
+		a g d' d, \noBreak
 		R1 \bar "||"
 		R1*2
 		r2 r4 c'~ %435

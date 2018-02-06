@@ -244,11 +244,13 @@ GloriaTenoreNotes = {
 		\time 3/4 h4 r r
 		R2.*2 \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
 			R1*2
 		r2 r4 \mvTr d8\fE^\tuttiE d
 		d4 d r d8 d
 		d8. d16 d8 d c4 d %430
-		d d d d
+		d d d d \noBreak
 		R1 \bar "||"
 		R1*10 %442
 		r2 a4 a

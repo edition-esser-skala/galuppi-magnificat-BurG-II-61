@@ -858,15 +858,17 @@ GloriaOrgano = {
 		fis8.[ fis16 fis8. fis16 fis8. fis16]
 		\time 3/2 h8.[ h16 h8. h16 c8. c16] a8.[ a16 h8. h16 h,8. h16]
 		\time 3/4 e4 e e
-		e e e
+		e e e \noBreak
 		e r r \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
-			\mvTr g8\fE-\tuttiE g g g fis fis fis fis
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			\mvTr g8\fE-\tuttiE g g g fis fis fis fis \noBreak
 		e e fis fis g g fis fis
 		e e fis fis g g g g
 		fis fis fis fis e e fis fis
 		g-\critnote g g h, c4 h %430
-		a g d' d
+		a g d' d \noBreak
 		R1 \bar "||"
 		R1*2
 		r2 r4 c'~ %435

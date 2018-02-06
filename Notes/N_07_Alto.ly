@@ -318,11 +318,13 @@ GloriaAltoNotes = {
 		\time 3/4 g4 r r
 		R2.*2 \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
 			R1*2
 		r2 r4 \mvTr g8\fE^\tuttiE g
 		a4 a r a8 a
 		g8. g16 g8 g g4 g %430
-		fis g g fis
+		fis g g fis \noBreak
 		R1 \bar "||"
 		R1*5 %437
 		r2 d4 d

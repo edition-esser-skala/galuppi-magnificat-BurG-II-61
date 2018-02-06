@@ -403,5 +403,122 @@ GloriaViolinoI = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #368
+		h'2.~\fE
+		h~
+		h~ %370
+		h
+		h'8\p g4 g8~ g8.(\trill fis32 g)
+		a8 fis4 fis8~ fis8.(\trill e32 fis)
+		g8 a \appoggiatura a4 g2\trill
+		fis2. %375
+		R
+		g,8(\pE h) \appoggiatura c16 h8([ a)] \appoggiatura h a8( g)
+		dis8.\f fis16 h,4 r
+		fis'8(\p a) \appoggiatura h16 a8([ g)] \appoggiatura a16 g8( fis)
+		e8.\f g16 h,4 dis\p %380
+		e r r\fermata
+		g'8 r g r g r
+		c, r c r c r
+		fis r fis r fis r
+		h, r h r h r %385
+		e r e r e r
+		e2.
+		r4 e\fE e
+		dis32( cis? h8.) h,4 r8 a'32( g fis e)
+		e4 e' e %390
+		dis32( cis? h8.) h,4 r
+		d'8\p r d r d r
+		d r d r c
+		r c r h r h r
+		h r a r a r %395
+		fis4 g g'
+		g, r r
+		R2.
+		r4 g'8.[\fE g16 c,8. c16]
+		a'8.[ a16 a8. a16 a8. a16] %400
+		g8.[ a16] g8.[^\critnote g16 fis8. fis16]
+		g4 g, r
+		d'8\p r d r d r
+		d4 c r
+		c8 r c r c r %405
+		c4 h r
+		r r g'~
+		g fis fis~
+		fis e e
+		dis8 r fis8.[\f fis16 g8. g16] %410
+		fis32( e dis8.) dis4 r
+		r fis8.[ fis16 g8. g16]
+		fis32( e dis8.) dis4 g~\p
+		g fis fis~
+		fis e c %415
+		h~ \tuplet 3/2 4 { h8[( cis dis]) e([ fis g)]
+		a[ g fis] } \appoggiatura e4 fis2\trill
+		r4 g8.[\f g16 e8. e16]
+		h'8.[ h16 h8. h16 h8. h16]
+		h8.[ h16 a8. a16 gis8. gis16] %420
+		a8.[ a16 a8. a16 a8. a16]
+		\time 3/2 a8.[ a16 a8. a16 g8. g16] a8.[ a16 fis8. fis16 fis8. fis16]
+		\time 3/4 g8 h,4\p h h8
+		r c4 c c8 \noBreak
+		h4 r r \bar "||" %425
+		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			g'16\fE g, g g g a h c d d, d d d e fis d \noBreak
+		g a h g a h c a h d, d d d e fis d
+		g a h g a h c a g' g, g g g a h c
+		d d, d d d e fis d g a h g a h c a
+		h g h d g8 d e g d g %430
+		fis4 g g fis16 a, h cis \noBreak
+		d8 d,16 d d8 d d4 r \bar "||"
+		R1*5 %437
+		r2 d'4 d
+		g g8 g g4 g
+		h1 %440
+		a2. d,4
+		g g g fis8 e
+		fis4 e8 d e2
+		d4 r r2
+		r r4 c'~ %445
+		c fis,2 h4~
+		h e,2 a4~
+		a g2 fis4
+		g r r2
+		r4 d8 e fis g a h %450
+		cis4 cis,8 d e fis g a
+		h4 h,8 cis d e fis g
+		a4 g8 fis g2
+		fis4 r r2
+		r c4 c %455
+		g' g8 g g4 f8 e
+		f?4 f f e8 d
+		e4 e4 r2
+		R1*3 %461
+		r2 h4 h
+		fis' fis8 fis fis4 fis
+		g1
+		fis2. h,4 %465
+		e e e d8 cis
+		d4 h8 cis d e fis g
+		a4 a,8 h c d e fis
+		g4 r d d
+		g g8 g g4 g %470
+		g2 fis
+		g4 d r2
+		r e4 e
+		a a8 a a4 g8 fis
+		g4 g e e %475
+		h' h8 h h2~
+		h4 e, a2
+		d,4 h8 c d e f g
+		a4 a,8 h c d e f
+		g4 g,8 a h c d e %480
+		f4 f,8 g a h c d
+		e4 r r a~
+		a d,2 g4~
+		g fis!8 e fis2
+		g4 g g2 %485
+		a fis
+		g1\fermata \bar "|." %487 FINIS
 	}
 }
