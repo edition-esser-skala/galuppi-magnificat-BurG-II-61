@@ -283,6 +283,11 @@ tempoSicutErat = \tempoMarkup "Allegro"
          (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
+		\override StaffGrouper.nonstaff-nonstaff-spacing =
+		  #'((basic-distance . 2)
+         (minimum-distance . 2)
+         (padding . -100)
+         (stretchability . 0))
 	}
 	\context {
 		\GrandStaff

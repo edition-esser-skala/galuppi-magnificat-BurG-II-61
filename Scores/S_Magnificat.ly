@@ -265,7 +265,7 @@
 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
-					\new Lyrics \with { alignAboveContext = "SopranoStaff" } \lyricsto SopranoTutti \GloriaSopranoTuttiLyrics
+					\new Lyrics \lyricsto SopranoTutti \GloriaSopranoTuttiLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
@@ -295,7 +295,7 @@
 					\GloriaBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 140 }
 		}
 	}

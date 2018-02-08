@@ -305,10 +305,10 @@ GloriaAltoNotes = {
 		g8. a16 \appoggiatura g4 fis2\trill
 		g4 r r
 		R2.*7 %409
-		r4 \mvTr fis\fE^\tutti g %410
+		r4 fis g %410
 		fis32([ e dis8.)] dis4 r
 		r fis g
-		fis32([^\critnote e dis8)] dis16 dis4 r
+		fis32([ e dis8)] dis16 dis4 r
 		R2.*4 %417
 		r4 \mvTr g\fE^\tuttiE e
 		h'2.~
