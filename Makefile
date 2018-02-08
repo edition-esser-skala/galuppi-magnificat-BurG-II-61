@@ -6,9 +6,9 @@
 # change the following variables according to your project
 project = Galuppi_Magnificat_BurG_II_61
 zipname = Galuppi_Magnificat_BurG_II_61_Engraving_Files
-notes = Clarino1 Clarino2 Timpani Violino1 Violino2 Viola Soprano Alto Tenore Basso Organo
-parts = Bassi ClariniTimpani Coro Organo Violino1 Violino2 Viola
-movements = Kyrie Gloria Credo Sanctus Benedictus AgnusDei
+notes = Corno1 Corno2 Violino1 Violino2 Viola Soprano Alto Tenore Basso Organo
+parts = Bassi Corni Coro Organo Violino1 Violino2 Viola
+movements = Magnificat
 
 
 .DEFAULT_GOAL := info

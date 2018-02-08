@@ -8,7 +8,7 @@ MagnificatViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoMagnificat
-		r32 \mvDll g'(\fE a h c d e fis)
+		\partial 4 r32 \mvDll g'(\fE a h c d e fis)
 		g8.[-! d16-! h8.-! d16]-! g,4 r32 e( fis g a h c d)
 		e8.[ h16 g8. h16] e,4 r32 c( d e f g a h)
 		c8.[ g16 e8. g16] c,8 c' r h,
@@ -90,6 +90,16 @@ MagnificatViolinoII = {
 		d c h c
 		h1 %80
 		c2. r4 \bar "||" %81 finis
+	}
+}
+
+EsurientesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		\override MultiMeasureRest.minimum-length = #40
+			R1*104 \bar "||" %85 finis
 	}
 }
 
@@ -360,7 +370,7 @@ GloriaViolinoII = {
 		c'8.[ c16 c8. c16 c8. c16] %420
 		c8.[ c16 h8. h16 a8. a16]
 		\time 3/2 dis8.[ dis16 dis8. dis16 e8. e16] e8.[ e16 dis8. dis16 dis8. dis16]
-		e8 g,4\p g g8
+		\time 3/4 e8 g,4\p g g8
 		r a4 a a8 \noBreak
 		g4 r r \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat

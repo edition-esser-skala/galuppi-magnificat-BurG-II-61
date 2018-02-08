@@ -6,13 +6,12 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "Scores/S_Magnificat.ly"
+% \include "Scores/S_Magnificat.ly"
 
-% \include "Parts/P_Oboe1.ly"
-% \include "Parts/P_Oboe2.ly"
+% \include "Parts/P_Corni.ly"
 % \include "Parts/P_Violino1.ly"
 % \include "Parts/P_Violino2.ly"
 % \include "Parts/P_Viola.ly"
 % \include "Parts/P_Coro.ly"
 % \include "Parts/P_Organo.ly"
-% \include "Parts/P_Bassi.ly"
+\include "Parts/P_Bassi.ly"

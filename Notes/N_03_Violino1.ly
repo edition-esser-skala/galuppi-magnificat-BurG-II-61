@@ -8,7 +8,7 @@ MagnificatViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoMagnificat
-		r32 \mvDll g'(\fE a h c d e fis)
+		\partial 4 r32 \mvDll g'(\fE a h c d e fis)
 		g8.[-! d16-! h8.-! d16]-! g,4 r32 e( fis g a h c d)
 		e8.[ h16 g8. h16] e,4 r32 c( d e f g a h)
 		c8.[ g16 e8. g16] c,8 c' r h,

@@ -51,6 +51,37 @@ MagnificatCornoII = {
 	}
 }
 
+EsurientesCornoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		\override MultiMeasureRest.minimum-length = #40
+			R1*104 \bar "||" %85 finis
+	}
+}
+
+SuscepitCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSuscepit
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #186
+		\override MultiMeasureRest.minimum-length = #40
+			R2.*77 \bar "||" %262 finis
+	}
+}
+
+SicutCornoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoSicut
+			\set Score.currentBarNumber = #263
+		\override MultiMeasureRest.minimum-length = #40
+			R1*105 \bar "||" %367 finis
+	}
+}
+
 GloriaCornoII = {
 	\relative c' {
 		\clef treble
@@ -77,7 +108,7 @@ GloriaCornoII = {
 		g4 a c-\critnote %420
 		a2 a4
 		\time 3/2 h2 g4-\critnote a a4 h,
-		h4 r r
+		\time 3/4 h4 r r
 		R2.*2 \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
 			\unset Staff.timeSignatureFraction

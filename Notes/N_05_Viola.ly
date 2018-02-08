@@ -89,6 +89,16 @@ MagnificatViola = {
 	}
 }
 
+EsurientesViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 2/2 \tempoEsurientes
+			\set Score.currentBarNumber = #82
+		\override MultiMeasureRest.minimum-length = #40
+			R1*104 \bar "||" %85 finis
+	}
+}
+
 SuscepitViola = {
 	\relative c' {
 		\clef alto
@@ -359,7 +369,7 @@ GloriaViola = {
 		R2.*2 %420
 		r4 fis'8.[\fE fis16 fis8. fis16]
 		\time 3/2 fis8.[ fis16 fis8. fis16 e8. e16] c8.[ c16 h8. h16 h8. h16]
-		h4 e-!\p e-!
+		\time 3/4 h4 e-!\p e-!
 		e-! e-! e-! \noBreak
 		e r r \bar "||" %425
 		\key g \major \time 4/4 \newSpacingSection \tempoSicutErat
