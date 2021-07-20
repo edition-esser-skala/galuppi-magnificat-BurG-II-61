@@ -1,0 +1,17 @@
+composer: Galuppi, Baldassare
+title: Magnificat
+id: BurG II/61
+genre: canticle
+scoring: S (solo), S, A, T, B (coro), 2 cor (G), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-D-27
+    type: manuscript copy
+    date: 1751–1764
+    rism: 212006124
+    url: http://digital.slub-dresden.de/id426043464
+github: galuppi-magnificat-BurG-II-61
+imslp: Magnificat_in_G_major,_B.II/61_(Galuppi,_Baldassare)
+notes:
+
