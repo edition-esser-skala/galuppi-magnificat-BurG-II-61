@@ -1,17 +1,20 @@
-composer: Galuppi, Baldassare
+composer:
+  last: Galuppi
+  first: Baldassare
 title: Magnificat
 id: BurG II/61
 genre: canticle
 scoring: S (solo), S, A, T, B (coro), 2 cor (G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-D-27
-    type: manuscript copy
     date: 1751–1764
     rism: 212006124
-    url: http://digital.slub-dresden.de/id426043464
-github: galuppi-magnificat-BurG-II-61
+    url: https://digital.slub-dresden.de/id426043464
+    license: public domain
+    principal: true
 imslp: Magnificat_in_G_major,_B.II/61_(Galuppi,_Baldassare)
-notes:
-
+parts:
+  cor12: Corno I, II in G
